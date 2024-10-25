@@ -12,6 +12,7 @@ Prosentvis endring over tid handler om hvordan verdien av noe, for eksempel en v
 
 
 $$\text{Ny verdi} = \text{Gammel verdi} \times \text{Vekstfaktor}^{\text{Perioder}}$$
+
 Der  er vekstraten per periode (i desimalform) og  er antall perioder.
 
 **Oppgave 1.1**
