@@ -283,10 +283,62 @@ Prøv å løse oppgavene på egen hånd før du ser på løsningsforslagene.
 
     Skriv en funksjon `generer_passord(lengde)` som genererer et tilfeldig passord av en gitt lengde. Passordet bør inneholde en blanding av bokstaver, tall og spesialtegn.
 
-12. **Anvend funksjon på liste**
 
-    Lag en funksjon `anvend_på_liste(funksjon, liste)` som tar inn en funksjon og en liste, og returnerer en ny liste der funksjonen er anvendt på hvert element i listen.
+12. **Personer**
+Ta utgangspunkt i følgende tabell med personer:
 
-13. **Implementer Quicksort**
+```python
+personer = [
+    {'fornavn': 'Kari', 'etternavn': 'Hansen', 'fødselsår': 2001},
+    {'fornavn': 'Gustav', 'etternavn': 'Monsen', 'fødselsår': 1995},
+    {'fornavn': 'Anette', 'etternavn': 'Ås', 'fødselsår': 1998},
+    {'fornavn': 'Marius', 'etternavn': 'Lie', 'fødselsår': 2002},
+    {'fornavn': 'Wenche', 'etternavn': 'Hovland', 'fødselsår': 1999}
+]
+```
 
-    Skriv en rekursiv funksjon `quicksort(liste)` som sorterer en liste ved hjelp av Quicksort-algoritmen.
+Lag et program der brukeren får velge mellom flere handlinger, for eksempel legge til en ny person, oppdatere en eksisterende person, eller slette en person. Bruk funksjoner for å gjøre programmet mer modulært og oversiktlig.
+
+#### Krav til løsningen:
+A. Lag en funksjon kalt `vis_meny()` som viser brukeren en meny med alternativer:
+   - Legg til en ny person
+   - Oppdater informasjon om en person
+   - Slett en person
+   - Vis alle personer
+   - Avslutt programmet
+
+B. Lag en funksjon kalt `legg_til_person(personer)` som ber brukeren om navn og fødselsår, og legger til en ny person i listen.
+
+C. Lag en funksjon kalt `oppdater_person(personer)` som lar brukeren oppdatere informasjon om en eksisterende person (for eksempel etternavn eller fødselsår).
+
+D. Lag en funksjon kalt `slett_person(personer)` som lar brukeren slette en person fra listen basert på fornavn og etternavn.
+
+E. Lag en funksjon kalt `skriv_ut_personer(personer)` som skriver ut alle personene i tabellen på en pen måte.
+
+F. Lag en hovedfunksjon `main()` som styrer programflyten ved å bruke de andre funksjonene.
+
+### Eksempel på kjøring:
+```python
+Velkommen til personadministrasjonen!
+
+Velg en handling:
+1. Legg til en ny person
+2. Oppdater informasjon om en person
+3. Slett en person
+4. Vis alle personer
+5. Avslutt
+Valg: 4
+
+Liste over personer:
+- Kari Hansen (2001)
+- Gustav Monsen (1995)
+- Anette Ås (1998)
+- Marius Lie (2002)
+- Wenche Hovland (1999)
+```
+
+### Ekstra utfordring:
+- Lag en funksjon `søk_etter_person(personer)` som lar brukeren søke etter en person basert på fornavn eller etternavn.
+- Legg til input-validering slik at programmet håndterer ugyldige valg på en god måte.
+
+Denne oppgaven vil hjelpe deg å trene på bruk av funksjoner, listehåndtering, og interaksjon med brukeren via kommandolinjen, samtidig som du får øve på grunnleggende CRUD-operasjoner (Create, Read, Update, Delete).
