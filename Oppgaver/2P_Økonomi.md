@@ -104,41 +104,6 @@ c) Regn ut hvor mye Anna sitter igjen med etter å ha dekket alle utgiftene.
 
 d) Vurder om Anna har råd til å kjøpe en hytte til 3 500 000 kroner, gitt at hun må betale 15 000 kroner i månedlige lånekostnader.
 
-**Oppgave 3.2: Magnus' økonomi**
-Magnus vil bruke SIFO sitt referansebudsjett for å få bedre kontroll på økonomien sin. Se nedenfor.
-
-**Person 1: Mann 40 til 60 år.**
-
-| Individspesifikke utgifter | Kostnad (kr) |
-| -------------------------- | ------------ |
-| Mat og drikke              | 6 000        |
-| Klær og sko                | 1 500        |
-| Personlig pleie            | 1 000        |
-| Lek og mediebruk           | 1 800        |
-| Reise (kollektivt)         | 1 100        |
-| **Sum**                    | **11 400**   |
-
-| Husholdspesifikke utgifter | Kostnad (kr) |
-| -------------------------- | ------------ |
-| Andre dagligvarer          | 500          |
-| Husholdningsartikler       | 700          |
-| Møbler                     | 600          |
-| Mediebruk og fritid        | 2 500        |
-| Bilkostnader               | 2 000        |
-| **Sum**                    | **6 300**    |
-
-I tillegg til utgiftene i budsjettet, bruker Magnus 2 200 kroner per måned til nedbetaling av billån og 1 000 kroner per måned til ulike forsikringer.
-
-Magnus har en brutto månedslønn på 65 000 kroner. Han betaler 2 % av brutto månedslønn i fagforeningskontingent og 1,5 % til pensjonssparing. Han har et skattetrekk på 30 %.
-
-a) Regn ut Magnus' totale månedlige utgifter basert på referansebudsjettet og de ekstra utgiftene hans.
-
-b) Hvor mye netto (etter skatt) sitter Magnus igjen med av månedslønnen sin?
-
-c) Regn ut hvor mye Magnus sitter igjen med etter å ha dekket alle utgiftene.
-
-d) Vurder om Magnus har råd til å oppgradere bilen sin til en nyere modell til 500 000 kroner, gitt at de månedlige lånekostnadene øker til 4 000 kroner.
-
 **4 Sparing** <a name="sparing"></a>
 
 Sparing innebærer å sette av penger til fremtidige behov eller mål. Det kan være til uforutsette utgifter, investeringer eller større innkjøp. Å sette opp en spareplan og følge med på utviklingen over tid kan hjelpe med å nå økonomiske mål på en effektiv måte.
