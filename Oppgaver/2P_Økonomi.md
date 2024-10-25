@@ -10,9 +10,8 @@
 
 Prosentvis endring over tid handler om hvordan verdien av noe, for eksempel en vare eller investering, endrer seg i prosent over en periode. Det er en viktig metode for å forstå vekst eller reduksjon i verdi i økonomiske sammenhenger. Formelen for prosentvis endring over tid er:
 
-```math
-\text{Ny verdi} = \text{Gammel verdi} \times \text{Vekstfaktor}^{\text{Perioder}}
-```
+
+$$\text{Ny verdi} = \text{Gammel verdi} \times \text{Vekstfaktor}^{\text{Perioder}}$$
 Der  er vekstraten per periode (i desimalform) og  er antall perioder.
 
 **Oppgave 1.1**
@@ -54,7 +53,7 @@ Mari har tatt opp et lån på 5 000 000 kroner for å starte en bedrift. Hun bet
 
 Beregn terminbeløpet (M) ved hjelp av følgende formel for anuitetslån:
 
-$M = \frac{r \cdot S}{1 - (1 + r)^{-n}}$
+$$M = \frac{r \cdot S}{1 - (1 + r)^{-n}}$$
 
 Der:
 
