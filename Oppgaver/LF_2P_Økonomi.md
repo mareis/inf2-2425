@@ -396,8 +396,8 @@ For å finne ut hvor mye han vil ha på kontoen om 5 år, regner han med at han 
 **Årlig økning i julegave:** 500 kr
 
 **Innskudd de neste årene:**
-- 1. år: 3 000 kr
-- 2. år: 3 000 + 500 = 3 500 kr
+- år 1: 3 000 kr
+- år2 : 3 000 + 500 = 3 500 kr
 
 **Innskudd etter 2 år:** 3 500 kr
 
