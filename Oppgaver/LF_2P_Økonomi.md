@@ -441,16 +441,13 @@ For å finne ut hvor mye han vil ha på kontoen om 5 år, regner han med at han 
 
 
 **Totalt innskudd etter 5 år:**
-$$
-3\ 000 + 3\ 500 + 4\ 000 + 4\ 500 + 5\ 000 = 20\ 000\ \text{kr}
-$$
+
+$$3\ 000 + 3\ 500 + 4\ 000 + 4\ 500 + 5\ 000 = 20\ 000\ \text{kr}$$
 
 **Beløp på kontoen etter 5 år:** 22 623.78 kr
 
 **Renter:**
-$$
-22\ 623.78 - 20\ 000 = 2\ 623.78\ \text{kr}
-$$
+$$22\ 623.78 - 20\ 000 = 2\ 623.78\ \text{kr}$$
 
 ---
 
