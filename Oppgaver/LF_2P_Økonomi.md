@@ -357,9 +357,7 @@ $$9\ 800 + 3\ 650 + 1\ 800 + 1\ 500 = 16\ 750\ \text{kr}$$
 ### c) Regn ut hvor mye Anna sitter igjen med etter å ha dekket alle utgiftene.
 
 **Sitte igjen etter utgifter:**
-$$
-36\ 192 - 16\ 750 = 19\ 442\ \text{kr}
-$$
+$$36\ 192 - 16\ 750 = 19\ 442\ \text{kr}$$
 
 **Beløp etter utgifter:** 19 442 kr
 
@@ -374,9 +372,7 @@ $$
 - 15 000 kr
 
 **Disponibel inntekt etter lånekostnader:**
-$$
-19\ 442 - 15\ 000 = 4\ 442\ \text{kr}
-$$
+$$19\ 442 - 15\ 000 = 4\ 442\ \text{kr}$$
 
 **Vurdering:**
 Anna har 4 442 kr igjen etter å ha betalt lånekostnadene, noe som kan være tilstrekkelig for hennes øvrige utgifter. Dette indikerer at hun kan ha råd til å kjøpe hytten, men hun bør vurdere om hun har nok til å dekke andre faste utgifter og eventuelle uforutsette kostnader.
