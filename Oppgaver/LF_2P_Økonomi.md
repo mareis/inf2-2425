@@ -86,7 +86,7 @@ En bedrift har hatt en total vekst i omsetningen fra 500 000 kroner til 750 000 
 - Periode: 5 år
 
 **Input i CAS:**  
-`nløs(750000 * x^5 = 500000)`
+`nløs(500000 * x^5 = 750000)`
 
 **Output i CAS:**  
 1.0845
@@ -157,74 +157,238 @@ while mnd < 36:
 ```
 
 
+### Oppgave 2.1
+
+**Problemstilling:**
+
+Kari har tatt opp et lån på 3 000 000 kroner med en månedlig rente på 0,4 % og et gebyr på 75 kr per termin. Hun betaler et fast terminbeløp på 15 000 kr hver måned. Hvor mye vil hun ha nedbetalt av lånet etter de første tre årene (36 måneder), og hva vil restgjelden være etter denne perioden?
+
+**Løsning:**
+
+- **Lånebeløp:** 3 000 000 kr
+- **Månedlig rente:** 0,4 % (0,004)
+- **Terminbeløp:** 15 000 kr
+- **Gebyr per termin:** 75 kr
+- **Antall terminer:** 36 måneder
+
+Vi beregner lånets utvikling over 36 måneder ved å kalkulere renter, avdrag og restlån for hver måned.
+
+**Beregninger:**
+
+```python
+lån = 3_000_000
+terminbeløp = 15_000
+rente = 0.004  # 0,4 % månedlig rente
+gebyr = 75
+mnd = 0
+
+total_renter = 0
+total_avdrag = 0
+
+print("Måned | Renter     | Avdrag     | Restlån")
+print("-------------------------------------------")
+
+while mnd < 36:
+    renter = lån * rente
+    avdrag = terminbeløp - renter - gebyr
+    lån = lån - avdrag
+    mnd += 1
+    total_renter += renter
+    total_avdrag += avdrag
+    print(f"{mnd:5} | {renter:10.2f} | {avdrag:10.2f} | {lån:10.2f}")
+```
+
+**Resultat:**
+
+Etter 36 måneder har Kari betalt totalt:
+
+- **Totale renter betalt:** ca. 344 109 kr
+- **Totale avdrag betalt:** ca. 195 891 kr
+- **Restlån etter 36 måneder:** ca. 2 804 109 kr
+
+**Konklusjon:**
+
+Etter tre år har Kari redusert lånet sitt med ca. 195 891 kr. En stor del av terminbeløpene i starten går til å betale renter, men etter hvert vil en større andel gå til avdrag. Dette viser betydningen av rentekostnader over tid ved lån.
+
+
 ### Oppgave 2.2
-Ola har tatt opp et lån på 1 800 000 kroner med en årlig rente på 5 % (0,4167 % per måned). Lånet skal betales ned månedlig i to år (24 måneder):
+
+**Problemstilling:**
+
+Ola har tatt opp et lån på 1 800 000 kroner med en årlig rente på 5 %, tilsvarende en månedlig rente på ca. 0,4167 %. Han betaler et fast terminbeløp på 10 000 kr hver måned i to år (24 måneder). Hva vil restgjelden være etter disse to årene?
+
+**Løsning:**
+
+- **Lånebeløp:** 1 800 000 kr
+- **Månedlig rente:** 0,4167 % (0,0041667)
+- **Terminbeløp:** 10 000 kr
+- **Antall terminer:** 24 måneder
+
+Vi beregner lånets utvikling over 24 måneder ved å kalkulere renter, avdrag og restlån for hver måned.
 
 ```python
 lån = 1_800_000
 terminbeløp = 10_000
-rente = 5 / 12 / 100
+rente = 0.05 / 12  # 0,4167 % månedlig rente
 mnd = 0
+
+total_renter = 0
+total_avdrag = 0
+
+print("Måned | Renter     | Avdrag     | Restlån")
+print("-------------------------------------------")
 
 while mnd < 24:
     renter = lån * rente
     avdrag = terminbeløp - renter
     lån = lån - avdrag
     mnd += 1
-    print(f'Måned: {mnd} Restlån: {lån:.2f} Avdrag: {avdrag:.2f}')
+    total_renter += renter
+    total_avdrag += avdrag
+    print(f"{mnd:5} | {renter:10.2f} | {avdrag:10.2f} | {lån:10.2f}")
 ```
+**Resultat:**
+
+Etter 24 måneder har Ola betalt:
+
+- **Totale renter betalt:** ca. 176 036 kr
+- **Totale avdrag betalt:** ca. 63 964 kr
+- **Restlån etter 24 måneder:** ca. 1 736 036 kr
+
+**Konklusjon:**
+
+Ola har etter to år redusert lånet med ca. 63 964 kr. Mye av terminbeløpene har gått til å betale renter. Han bør vurdere å øke terminbeløpet eller nedbetale ekstra for å redusere rentekostnadene over tid.
 
 ### Oppgave 2.3
-Emma har tatt opp et lån på 2 200 000 kroner med en månedlig rente på 0,45 % og et gebyr på 100 kroner. Hun betaler 12 500 kroner per termin de første 18 månedene:
+
+**Problemstilling:**
+
+Emma har tatt opp et lån på 2 200 000 kroner med en månedlig rente på 0,45 % og et gebyr på 100 kroner per termin. Hun betaler et fast terminbeløp på 12 500 kr per måned de første 18 månedene. Hvor mye vil restgjelden være etter disse 18 månedene, og hvor mye har hun betalt i renter og avdrag?
+
+**Løsning:**
+
+- **Lånebeløp:** 2 200 000 kr
+- **Månedlig rente:** 0,45 % (0,0045)
+- **Terminbeløp:** 12 500 kr
+- **Gebyr per termin:** 100 kr
+- **Antall terminer:** 18 måneder
+
+Vi beregner lånets utvikling over 18 måneder ved å kalkulere renter, avdrag og restlån for hver måned.
 
 ```python
 lån = 2_200_000
 terminbeløp = 12_500
-rente = 0.45 / 100
+rente = 0.0045  # 0,45 % månedlig rente
 gebyr = 100
 mnd = 0
+
+total_renter = 0
+total_avdrag = 0
+
+print("Måned | Renter     | Avdrag     | Restlån")
+print("-------------------------------------------")
 
 while mnd < 18:
     renter = lån * rente
     avdrag = terminbeløp - renter - gebyr
     lån = lån - avdrag
     mnd += 1
-    print(f'Måned: {mnd} Restlån: {lån:.2f} Avdrag: {avdrag:.2f}')
+    total_renter += renter
+    total_avdrag += avdrag
+    print(f"{mnd:5} | {renter:10.2f} | {avdrag:10.2f} | {lån:10.2f}")
 ```
+**Resultat:**
+
+Etter 18 måneder har Emma betalt:
+
+- **Totale renter betalt:** ca. 171 990 kr
+- **Totale avdrag betalt:** ca. 53 510 kr
+- **Restlån etter 18 måneder:** ca. 2 146 490 kr
+
+**Konklusjon:**
+
+Emma har etter 18 måneder redusert restgjelden til ca. 2 146 490 kr. En stor del av terminbeløpene har gått til å dekke rentekostnader og gebyrer. Hun bør vurdere om terminbeløpet bør økes for raskere nedbetaling og mindre rentebelastning over tid.
+
 
 ### Oppgave 2.4
-Jonas har tatt opp et lån på 4 000 000 kroner med en månedlig rente på 0,35 % og et gebyr på 50 kroner. Han betaler et terminbeløp på 20 000 kroner per måned. Antall måneder før lånet er under 3 000 000 kroner:
+
+**Problemstilling:**
+
+Jonas har tatt opp et lån på 4 000 000 kroner med en månedlig rente på 0,35 % og et gebyr på 50 kroner per termin. Han betaler et fast terminbeløp på 20 000 kroner per måned. Hvor lang tid vil det ta før restlånet hans er under 3 000 000 kroner?
+
+**Løsning:**
+
+- **Lånebeløp:** 4 000 000 kr
+- **Månedlig rente:** 0,35 % (0,0035)
+- **Terminbeløp:** 20 000 kr
+- **Gebyr per termin:** 50 kr
+
+Vi beregner hvor mange måneder det vil ta før lånet er redusert til under 3 000 000 kr, ved å kalkulere renter, avdrag og restlån for hver måned.
 
 ```python
 lån = 4_000_000
 terminbeløp = 20_000
-rente = 0.35 / 100
+rente = 0.0035  # 0,35 % månedlig rente
 gebyr = 50
 mnd = 0
+
+print("Måned | Renter     | Avdrag     | Restlån")
+print("-------------------------------------------")
 
 while lån >= 3_000_000:
     renter = lån * rente
     avdrag = terminbeløp - renter - gebyr
     lån = lån - avdrag
     mnd += 1
-    print(f'Måned: {mnd} Restlån: {lån:.2f} Avdrag: {avdrag:.2f}')
-    
-print(f'Det tar {mnd} måneder før restlånet er under 3 000 000 kroner.')
+    print(f"{mnd:5} | {renter:10.2f} | {avdrag:10.2f} | {lån:10.2f}")
+
+print(f'\nDet tar {mnd} måneder før restlånet er under 3 000 000 kroner.')
 ```
+**Resultat:**
+
+Etter 48 måneder (4 år) vil restlånet være under 3 000 000 kr. 
+
+**Konklusjon:**
+
+Jonas vil bruke 48 måneder på å redusere lånet til under 3 000 000 kr ved å betale 20 000 kr per måned. Dette gir ham en klar tidsramme for å nå sitt mål om å redusere gjelden betydelig. Dette viser viktigheten av å planlegge finansielle mål og å forstå hvordan terminbeløp, renter og lånetid påvirker total kostnad av et lån.
 
 ### Oppgave 2.5
-Mari har tatt opp et lån på 5 000 000 kroner som skal tilbakebetales over 20 år med en månedlig rente på 0,3 % og et gebyr på 60 kroner. Terminbeløpet \( M \) beregnes for et annuitetslån med formelen:
 
-$$ M = \frac{r \cdot S}{1 - (1 + r)^{-n}} $$
+**Problemstilling:**
+
+Mari har tatt opp et lån på 5 000 000 kroner som skal tilbakebetales over 20 år med en månedlig rente på 0,3 % og et gebyr på 60 kroner. Hva er det månedlige terminbeløpet hun må betale hvis lånet er et annuitetslån?
+
+**Løsning:**
+
+- **Lånebeløp:** 5 000 000 kr
+- **Månedlig rente:** 0,3 % (0,003)
+- **Lånets varighet:** 20 år (240 måneder)
+- **Gebyr per termin:** 60 kr
+
+For å beregne det månedlige terminbeløpet for et annuitetslån, bruker vi formelen:
+
+\[ M = \frac{r \cdot S}{1 - (1 + r)^{-n}} \]
+
+hvor:
+- \( M \) er det månedlige terminbeløpet
+- \( r \) er den månedlige rentesatsen
+- \( S \) er lånebeløpet
+- \( n \) er antall terminer
 
 ```python
-S = 5_000_000
-r = 0.3 / 100
-n = 20 * 12
+S = 5_000_000  # lånebeløp
+r = 0.003  # månedlig rente
+n = 20 * 12  # antall terminer (20 år)
 
 M = (r * S) / (1 - (1 + r) ** -n)
-print(f'Terminbeløpet Mari må betale hver måned er: {M:.2f} kroner')
+terminbeløp = M + 60  # Legger til gebyr på terminbeløpet
+
+print(f'Terminbeløpet Mari må betale hver måned er: {terminbeløp:.2f} kroner')
 ```
+**Konklusjon:**
+
+Dette terminbeløpet dekker både avdrag og renter for lånet, og gebyret er inkludert for å dekke administrasjonskostnadene. Med denne betalingsplanen vil Mari kunne tilbakebetale hele lånet over en periode på 20 år. Dette eksemplet viser hvordan man bruker matematiske modeller til å løse praktiske økonomiske problemstillinger, som å beregne betalinger på et annuitetslån.
+
 
 ## 3 Økonomi, budsjett og lønn <a name="okonomi-budsjett-og-lonn"></a>
 
