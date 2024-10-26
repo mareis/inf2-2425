@@ -16,25 +16,32 @@ $$\text{Ny verdi} = \text{Gammel verdi} \times \text{Vekstfaktor}^{\text{Periode
 
 Der  er vekstraten per periode (i desimalform) og  er antall perioder.
 
+
+## 1 Prosentvis endring over tid <a name="prosentvis-endring-over-tid"></a>
+
 **Oppgave 1.1**
 En butikk øker prisen på en vare med 5 % hvert år. Prisen på varen er nå 1 000 kroner. Hva vil prisen være etter 2 år?
+
 
 **Oppgave 1.2**
 En bil mister 10 % av verdien sin hvert år. Bilen kostet opprinnelig 200 000 kroner. Hva vil verdien være etter 3 år?
 
+
 **Oppgave 1.3**
-En investering har økt i verdi med 8 % per år i 4 år, og er nå verdt 320 000 kroner. Hva var verdien av investeringen for 4 år siden?
+En investering har økt i verdi med 8 % per år i 10 år, og er nå verdt 320 000 kroner. Hva var verdien av investeringen for 10 år siden?
+
 
 **Oppgave 1.4**
-En bedrift har hatt en total vekst på 50 % i omsetningen over en periode på 5 år. Omsetningen for 5 år siden var 500 000 kroner. Hva var den gjennomsnittlige årlige prosentvise veksten?
+En bedrift har hatt en total vekst i omsetningen fra 500 000 kroner til 750 000 kroner over en periode på 5 år. Hva var den gjennomsnittlige årlige prosentvise veksten?
+
 
 **Oppgave 1.5**
 Verdien på en eiendom har først økt med 12 % det første året og deretter falt med 7 % det andre året. Hva er den totale prosentvise endringen i verdien etter de to årene?
 
 **Oppgave 1.6**
-En aksje har hatt en nedgang på 15 % det første året og en økning på 20 % det andre året. Hva er den totale prosentvise endringen i verdien over de to årene?
+En aksje har hatt en økning på 55 % til sammen siste 5 år. Hva er den gjennomsnittlige prosentvise endringen?
 
-**2 Anuitetslån** <a name="anuitetslan"></a>
+## **2 Anuitetslån** <a name="anuitetslan"></a>
 
 Anuitetslån er en type lån hvor terminbeløpet (det faste månedlige beløpet som betales) er det samme gjennom hele lånets løpetid. Renten og avdragene fordeles slik at man betaler mer i renter i starten, og mer av lånet mot slutten. Dette gir forutsigbarhet i økonomien.
 
@@ -66,14 +73,26 @@ Der:
 
 Bruk denne formelen til å beregne hvor stort terminbeløpet Mari må betale hver måned vil være.
 
-**3 Økonomi, budsjett og lønn** <a name="okonomi-budsjett-og-lonn"></a>
+## **3 Økonomi, budsjett og lønn** <a name="okonomi-budsjett-og-lonn"></a>
 
 Dette temaet handler om å få oversikt over egen økonomi gjennom å sette opp budsjett, beregne utgifter og inntekter, og planlegge for fremtidige kostnader. Det hjelper med å forstå hvor pengene går og hvordan man kan fordele ressursene best mulig.
 
-**Oppgave 3.1: Anna's økonomi**
+**Oppgave 3.1: Lønn og feriepenger**
+
+Du har fått sommerjobb hos en lokal bedrift i juli og august (2 måneder) med en månedslønn på 25 000 kroner. Arbeidsgiveren din følger norsk ferielov og gir feriepenger året etter. Siden dette er en kort sommerjobb, ligger den totale lønnen under frikortgrensen, og du trenger derfor ikke betale skatt.
+
+a) Hvor mye vil du tjene totalt etter 2 måneder?
+
+b) I henhold til ferieloven er satsen for feriepenger 12 % av det du tjente året før (forutsett at dette er din eneste inntekt dette året). Beregn hvor mye du vil få i feriepenger året etter basert på lønnen fra denne jobben.
+
+c) Hvor mye vil du totalt ha tjent inkludert feriepenger?
+
+d) Hva tror du kan være fordeler og ulemper med å få feriepenger året etter, sammenlignet med å få en høyere lønn med en gang?
+
+**Oppgave 3.2: Anna's økonomi**
 Anna vil bruke SIFO sitt referansebudsjett for å få en bedre oversikt over økonomien sin. Se nedenfor.
 
-**Person 1: Kvinne 30 til 50 år.**
+**Person: Kvinne 30 til 50 år.**
 
 | Individspesifikke utgifter | Kostnad (kr) |
 | -------------------------- | ------------ |
@@ -104,7 +123,7 @@ c) Regn ut hvor mye Anna sitter igjen med etter å ha dekket alle utgiftene.
 
 d) Vurder om Anna har råd til å kjøpe en hytte til 3 500 000 kroner, gitt at hun må betale 15 000 kroner i månedlige lånekostnader.
 
-**4 Sparing** <a name="sparing"></a>
+## **4 Sparing** <a name="sparing"></a>
 
 Sparing innebærer å sette av penger til fremtidige behov eller mål. Det kan være til uforutsette utgifter, investeringer eller større innkjøp. Å sette opp en spareplan og følge med på utviklingen over tid kan hjelpe med å nå økonomiske mål på en effektiv måte.
 
@@ -123,7 +142,7 @@ d) Lag en sammenligning i regnearket for å se hvordan spareplanen utvikler seg 
 
 e) Lag spareplanen i Python. Lag et program som regner ut hvor mye John Steinar setter inn hvert år, hvor mye renter han får, og hvor mye han har på kontoen etter hvert år i 5 år.
 
-**5 Sammensatte oppgaver** <a name="sammensatte-oppgaver"></a>
+## **5 Sammensatte oppgaver** <a name="sammensatte-oppgaver"></a>
 
 Sammensatte oppgaver kombinerer ulike økonomiske aspekter som familieøkonomi, oppstart av bedrifter, og fremtidsplanlegging. Ved å jobbe med disse oppgavene får man innsikt i hvordan ulike faktorer påvirker økonomien som helhet, og hvordan man kan planlegge økonomien for å oppnå sine mål.
 
@@ -186,3 +205,6 @@ a) Beregn hvor mye netto månedsinntekt Peter har etter skatt.
 b) Hvor mye sitter Peter igjen med etter alle faste utgifter, sparing til konsulentfirmaet og sparing til leilighet og reise?
 
 c) Vurder om Peter har økonomi til å nå sine mål om å kjøpe en leilighet, starte firma og reise. Hva må han eventuelt justere på for å få råd til alt?1
+
+d) Peter ønsker å beregne hvor mye feriepenger han vil få utbetalt neste år. Beregn feriepengene basert på hans inntekt og relevante satser.
+
