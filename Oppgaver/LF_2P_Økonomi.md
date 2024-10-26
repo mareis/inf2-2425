@@ -756,66 +756,6 @@ $$
 | Arne       | 48 000                    | 480                           | 1 200                     | 46 320               | 13 896         | 32 424                |
 | **Totalt** | **100 000 kr**            | **1 000 kr**                  | **2 500 kr**              | **96 500 kr**        | **28 950 kr**  | **67 550 kr**         |
 
-##### Beregning av Skatt:
-
-Skatt beregnes på **trekkgrunnlag**, som er inntekt etter fagforeningskontingent og pensjonssparing.
-
-$$
-\text{Trekkgrunnlag} = \text{Brutto inntekt} - \text{Fagforeningskontingent} - \text{Pensjonssparing}
-$$
-
-###### For Marie:
-
-$$
-\begin{align*}
-\text{Trekkgrunnlag (Marie)} &= 52\,000 - 520 - 1\,300 \\
-&= 50\,180\ \text{kr} \\
-\text{Skatt (Marie)} &= 50\,180 \times 0.30 = 15\,054\ \text{kr}
-\end{align*}
-$$
-
-##### For Arne:
-
-$$
-\begin{align*}
-\text{Trekkgrunnlag (Arne)} &= 48\,000 - 480 - 1\,200 \\
-&= 46\,320\ \text{kr} \\
-\text{Skatt (Arne)} &= 46\,320 \times 0.30 = 13\,896\ \text{kr}
-\end{align*}
-$$
-
-##### Netto Inntekt:
-
-$$
-\text{Netto Inntekt} = \text{Brutto inntekt} - \text{Fagforeningskontingent} - \text{Pensjonssparing} - \text{Skatt}
-$$
-
-#### For Marie:
-
-$$
-\begin{align*}
-\text{Netto Inntekt (Marie)} &= 52\,000 - 520 - 1\,300 - 15\,054 \\
-&= 35\,126\ \text{kr}
-\end{align*}
-$$
-
-##### For Arne:
-
-$$
-\begin{align*}
-\text{Netto Inntekt (Arne)} &= 48\,000 - 480 - 1\,200 - 13\,896 \\
-&= 32\,424\ \text{kr}
-\end{align*}
-$$
-
-#### Oppsummering:
-
-| **Person** | **Brutto Inntekt (kr)** | **Fagforeningskontingent (kr)** | **Pensjonssparing (kr)** | **Trekkgrunnlag (kr)** | **Skatt (kr)** | **Netto Inntekt (kr)** |
-|------------|---------------------------|-------------------------------|---------------------------|----------------------|----------------|-----------------------|
-| Marie      | 52 000                    | 520                           | 1 300                     | 50 180               | 15 054         | 35 126                |
-| Arne       | 48 000                    | 480                           | 1 200                     | 46 320               | 13 896         | 32 424                |
-| **Totalt** | **100 000 kr**            | **1 000 kr**                  | **2 500 kr**              | **96 500 kr**        | **28 950 kr**  | **67 550 kr**         |
-
 ---
 
 #### c) Hvor mye har familien til overs etter å ha betalt alle utgiftene sine?
@@ -834,7 +774,7 @@ $$
 
 ---
 
-## d) Familien vurderer å ta opp et nytt lån for å kjøpe en hytte til 2 500 000 kroner. Beregn hvor mye de har til rådighet hver måned etter å ha betalt et anslått terminbeløp på 10 000 kroner. Kan familien ta opp lånet uten å få et for stramt budsjett?
+#### d) Familien vurderer å ta opp et nytt lån for å kjøpe en hytte til 2 500 000 kroner. Beregn hvor mye de har til rådighet hver måned etter å ha betalt et anslått terminbeløp på 10 000 kroner. Kan familien ta opp lånet uten å få et for stramt budsjett?
 
 ##### Gitt Nytt Lån:
 
