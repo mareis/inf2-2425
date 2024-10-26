@@ -12,21 +12,21 @@
 
 En sjokoladeprodusent lanserer en ny sjokoladeplate. Første året selger de 50 000 plater. De forventer at salget vil øke med 20 % hvert år de neste tre årene.
 
-**a)** Hvor mange sjokoladeplater forventer de å selge etter tre år? _(5 poeng)_
+**a)** Hvor mange sjokoladeplater forventer de å selge etter tre år?
 
-**b)** Finn den totale prosentvise økningen i salget fra første til tredje år. _(5 poeng)_
+**b)** Finn den totale prosentvise økningen i salget fra første til tredje år.
 
 ### 1.2
 
-En bedrift opplever en årlig nedgang i omsetning på 5 % over fire år på grunn av økonomiske utfordringer. Hvis bedriftens omsetning var 2 000 000 kroner i starten, hva er omsetningen etter fire år? _(5 poeng)_
+En bedrift opplever en årlig nedgang i omsetning på 5 % over fire år på grunn av økonomiske utfordringer. Hvis bedriftens omsetning var 2 000 000 kroner i starten, hva er omsetningen etter fire år?
 
 ### 1.3
 
 En skog har 10 000 trær. På grunn av planting øker antall trær med 8 % per år. Samtidig fører hogst til at 2 % av trærne fjernes hvert år.
 
-**a)** Hva er den samlede prosentvise endringen per år? _(5 poeng)_
+**a)** Hva er den samlede prosentvise endringen per år?
 
-**b)** Hvor mange trær vil det være i skogen etter 5 år? _(5 poeng)_
+**b)** Hvor mange trær vil det være i skogen etter 5 år?
 
 ---
 
@@ -39,19 +39,19 @@ Sofie og Markus er nyutdannede ingeniører som har fått jobb i samme firma.
 - **Sofie** har en årslønn på 540 000 kroner. Hun betaler 34 % skatt, 2 % i pensjonstrekk og 1 % i fagforeningskontingent.
 - **Markus** har en årslønn på 480 000 kroner. Han betaler 32 % skatt, 2 % i pensjonstrekk og er ikke medlem av fagforeningen.
 
-**a)** Beregn den månedlige nettoinntekten for både Sofie og Markus etter alle trekk. _(8 poeng)_
+**a)** Beregn den månedlige nettoinntekten for både Sofie og Markus etter alle trekk.
 
-**b)** Hvem sitter igjen med mest netto per måned, og hvor stor er forskjellen? _(4 poeng)_
+**b)** Hvem sitter igjen med mest netto per måned, og hvor stor er forskjellen?
 
-**c)** Hvor mye feriepenger vil Sofie få utbetalt dersom feriepengesatsen er 10,2 % av bruttoinntekten? _(6 poeng)_
+**c)** Hvor mye feriepenger vil Sofie få utbetalt dersom feriepengesatsen er 10,2 % av bruttoinntekten?
 
 ### 2.2
 
 En arbeidstaker får en lønnsøkning på 4 % fra en bruttolønn på 450 000 kroner. Samtidig øker skattesatsen fra 30 % til 31 %.
 
-**a)** Beregn endringen i nettoinntekt. _(8 poeng)_
+**a)** Beregn endringen i nettoinntekt.
 
-**b)** Diskuter hvordan prosentvise endringer i lønn og skatt påvirker arbeidstakerens økonomi. _(4 poeng)_
+**b)** Diskuter hvordan prosentvise endringer i lønn og skatt påvirker arbeidstakerens økonomi.
 
 ---
 
@@ -61,17 +61,17 @@ En arbeidstaker får en lønnsøkning på 4 % fra en bruttolønn på 450 000
 
 Thomas vurderer å kjøpe en motorsykkel til 120 000 kroner. Han kan enten betale kontant eller ta opp et lån med en nominell rente på 6 % per år over 5 år.
 
-**a)** Beregn hvor mye Thomas må betale totalt hvis han tar opp lånet, inkludert renter. _(8 poeng)_
+**a)** Beregn hvor mye Thomas må betale totalt hvis han tar opp lånet, inkludert renter.
 
-**b)** Diskuter fordeler og ulemper med å ta opp lån kontra å betale kontant, med tanke på likviditet og økonomisk fleksibilitet. _(4 poeng)_
+**b)** Diskuter fordeler og ulemper med å ta opp lån kontra å betale kontant, med tanke på likviditet og økonomisk fleksibilitet.
 
 ### 3.2
 
 Maria har et kredittkort med en rente på 20 % per år. Hun skylder 15 000 kroner og planlegger å betale ned hele beløpet om 6 måneder.
 
-**a)** Beregn hvor mye Maria må betale totalt etter 6 måneder. _(8 poeng)_
+**a)** Beregn hvor mye Maria må betale totalt etter 6 måneder.
 
-**b)** Maria vurderer å ta opp et personlig lån med en rente på 8 % per år for å betale ned kredittkortgjelden. Beregn hvor mye hun vil spare ved å gjøre dette. _(4 poeng)_
+**b)** Maria vurderer å ta opp et personlig lån med en rente på 8 % per år for å betale ned kredittkortgjelden. Beregn hvor mye hun vil spare ved å gjøre dette.
 
 ---
 
@@ -91,11 +91,11 @@ De to voksne har en samlet bruttolønn på 80 000 kr per måned. Skattetrekket
 
 ### 4.1
 
-**a)** Beregn familiens totale månedlige utgifter. _(5 poeng)_
+**a)** Beregn familiens totale månedlige utgifter.
 
-**b)** Beregn familiens nettoinntekt etter skatt, og finn ut hvor mye de har igjen etter å ha dekket alle utgifter og sparing. _(10 poeng)_
+**b)** Beregn familiens nettoinntekt etter skatt, og finn ut hvor mye de har igjen etter å ha dekket alle utgifter og sparing.
 
-**c)** Hvis familien ønsker å sette av ekstra penger til ferie og bestemmer seg for å redusere budsjettet med 10 % på mat og dagligvarer, klær og sko, og andre utgifter, hvor mye ekstra vil de kunne spare per måned? _(15 poeng)_
+**c)** Hvis familien ønsker å sette av ekstra penger til ferie og bestemmer seg for å redusere budsjettet med 10 % på mat og dagligvarer, klær og sko, og andre utgifter, hvor mye ekstra vil de kunne spare per måned?
 
 ---
 
@@ -108,9 +108,9 @@ En investor vurderer to forskjellige spareplaner over en periode på 10 år:
 - **Plan A:** En årlig rente på 4 %, med et startinnskudd på 50 000 kroner.
 - **Plan B:** En årlig rente på 3 %, men med årlige innskudd på 5 000 kroner i tillegg til et startinnskudd på 30 000 kroner.
 
-**a)** Beregn sluttverdien for begge planene etter 10 år. _(8 poeng)_
+**a)** Beregn sluttverdien for begge planene etter 10 år.
 
-**b)** Hvilken spareplan gir mest avkastning, og hvorfor? _(7 poeng)_
+**b)** Hvilken spareplan gir mest avkastning, og hvorfor?
 
 ---
 
@@ -137,4 +137,3 @@ Besvarelsen vurderes etter følgende kriterier:
 **Lykke til med prøven!**
 
 ---
-
