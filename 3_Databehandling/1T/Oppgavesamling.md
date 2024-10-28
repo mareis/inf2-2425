@@ -205,9 +205,9 @@ Omform $$x^2 + 8x + 12$$ til fullstendig kvadrat:
 
 20. Gjør ferdig til fullstendig kvadrat ved å fylle inn det som mangler:
   
-   a) $$x^2 + 6x + ___$$
-   b) $$x^2 - 4x + ___$$
-   c) $$x^2 + 2x + ___$$
+   a) $$x^2 + 6x + ???$$
+   b) $$x^2 - 4x + ???$$
+   c) $$x^2 + 2x + ???$$
 
 21. Bestem største eller minste verdi av uttrykket $$-x^2 + 8x - 12$$ ved å omforme til fullstendig kvadrat.
 
@@ -224,21 +224,12 @@ Omform $$x^2 + 8x + 12$$ til fullstendig kvadrat:
 ## Del 6: Praktiske anvendelser
 
 ### Eksempel
-En fotograf skal lage en bilderamme med areal 100 cm². La bredden være x cm.
-1. Uttrykk lengden ved hjelp av x: $$\frac{100}{x}$$ cm
-2. Omkretsen blir da: $$2x + 2 \cdot \frac{100}{x}$$
-3. For å finne minste omkrets:
-  - Omskriv uttrykket: $$2(x + \frac{100}{x})$$
-  - Minste verdi når $$x = \sqrt{100} = 10$$
-  - Da blir lengden også 10 cm
-  - Rammen bør være kvadratisk
 
 25. Et rektangulært fotballmål skal ha areal 24 kvadratmeter.
    La høyden være x meter.
    
    a) Uttrykk bredden ved hjelp av x
    b) Sett opp et uttrykk for omkretsen
-   c) For hvilken høyde blir omkretsen minst?
 
 26. Et rektangulært stykke metall er 20 cm langt og 12 cm bredt.
    I hvert hjørne skal det klippes bort et kvadrat med side x cm.
