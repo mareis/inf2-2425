@@ -1,226 +1,176 @@
-# Arbeidsark: Funksjoner i Python 🐍
+# 🎃 Halloween-programmering: Funksjoner i Python 🎃
 
-## Del 1: Enkle funksjoner uten parameter og returverdi
-I denne delen skal vi lære å lage enkle funksjoner som utfører bestemte oppgaver.
+## Del 1: Enkle funksjoner uten parameter og returverdi 🧙‍♂️
+I denne delen skal vi lære å lage enkle funksjoner som kan skremme vettet av folk!
 
-### Oppgave 1.1
-Lag en funksjon som heter `hilsen()` som skriver ut "Hei verden!" når den kalles.
+### Oppgave 1.1 
+Lag en funksjon som heter `spøkelse()` som skriver ut "Buuuuuu!" når den kalles.
 ```python
 # Din kode her
 ```
 
 ### Oppgave 1.2
-Lag en funksjon som heter `tegn_stjerner()` som skriver ut et mønster av stjerner:
+Lag en funksjon som heter `tegn_gresskar()` som skriver ut et mønster av stjerner som ligner et gresskar:
 ```python
-*****
-*****
-*****
+ *****
+*     *
+* ^ ^ *
+*  >  *
+ *****
 ```
 
-## Del 2: Funksjoner med parameter
-Nå skal vi lage funksjoner som kan ta imot informasjon og bruke den.
+## Del 2: Funksjoner med parameter 🧛‍♂️
+Nå skal vi lage funksjoner som kan ta imot informasjon og bruke den til å spre Halloween-stemning!
 
 ### Oppgave 2.1
-Lag en funksjon `personlig_hilsen(navn)` som tar imot et navn og skriver ut en hilsen til denne personen.
+Lag en funksjon `skrem_person(navn)` som tar imot et navn og skriver ut en skremmende hilsen til denne personen.
 ```python
 # Eksempel på bruk:
-personlig_hilsen("Ada")  # Skal skrive ut: "Hei, Ada! Håper du har en fin dag!"
+skrem_person("Ada")  # Skal skrive ut: "Møørke hilsener, Ada! Spøkelsene ser deg! 👻"
 ```
 
 ### Oppgave 2.2
-Lag en funksjon `tegn_rektangel(bredde, høyde)` som tegner et rektangel av stjerner med gitt bredde og høyde.
+Lag en funksjon `tegn_spøkelseshus(bredde, høyde)` som tegner et hjemsøkt hus av stjerner med gitt bredde og høyde.
 ```python
 # Eksempel på bruk:
-tegn_rektangel(4, 3)
+tegn_spøkelseshus(4, 3)
 # Skal gi:
+#  /\
 # ****
-# ****
-# ****
+# |  |
 ```
 
-## Del 3: Funksjoner med returverdi
+## Del 3: Funksjoner med returverdi 🎃
 Her skal vi lage funksjoner som kan gi tilbake verdier vi kan bruke senere.
 
 ### Oppgave 3.1
-Lag en funksjon `beregn_areal(lengde, bredde)` som returnerer arealet av et rektangel.
+Lag en funksjon `beregn_godteri(barn, godteri_per_barn)` som returnerer hvor mye godteri som trengs totalt.
 ```python
 # Eksempel på bruk:
-areal = beregn_areal(5, 3)
-print(f"Arealet er {areal} kvadratmeter")
+total_godteri = beregn_godteri(5, 10)
+print(f"Du trenger {total_godteri} godteri til Halloween-festen! 🍬")
 ```
 
 ### Oppgave 3.2
-Lag en funksjon `tell_bokstaver(tekst, bokstav)` som teller hvor mange ganger en bestemt bokstav forekommer i en tekst.
+Lag en funksjon `tell_monstre(tekst)` som teller hvor mange ganger ordene "spøkelse", "vampyr", "zombie" eller "heks" forekommer i en tekst.
 ```python
 # Eksempel på bruk:
-antall = tell_bokstaver("programmering", "m")
-print(f"Bokstaven forekommer {antall} ganger")
+antall = tell_monstre("Det var en heks og to spøkelser i huset")
+print(f"Det er {antall} monstre i historien! 👻")
 ```
 
-## Del 4: Kombinere funksjoner
+## Del 4: Kombinere funksjoner 🧟‍♂️
 Nå skal vi lage programmer som bruker flere funksjoner sammen.
 
-### Oppgave 4.1: Temperaturkonvertering
+### Oppgave 4.1: Monster-temperatur
 Lag to funksjoner:
-- `celsius_til_fahrenheit(celsius)` som konverterer fra celsius til fahrenheit
-- `fahrenheit_til_celsius(fahrenheit)` som konverterer fra fahrenheit til celsius
+- `menneske_til_monster_temp(menneske_temp)` som konverterer vanlig temperatur til monster-temperatur (gang med 0.666)
+- `monster_til_menneske_temp(monster_temp)` som konverterer tilbake
 
-Lag deretter et program som bruker begge funksjonene til å:
-1. Konvertere 20°C til fahrenheit
-2. Ta svaret og konvertere det tilbake til celsius
-3. Sjekk at du får 20°C igjen!
+Lag deretter et program som konverterer frem og tilbake for å sjekke om regningen stemmer!
 
-### Oppgave 4.2: Enkel kalkulator
+### Oppgave 4.2: Heksebrygg-kalkulator
 Lag følgende funksjoner:
-- `pluss(a, b)` - returnerer summen av to tall
-- `minus(a, b)` - returnerer differansen mellom to tall
-- `gang(a, b)` - returnerer produktet av to tall
-- `del(a, b)` - returnerer kvotienten av to tall (husk å sjekke for deling på 0!)
-
-Lag deretter en funksjon `kalkuler(tall1, operasjon, tall2)` som bruker de andre funksjonene til å utføre beregningen.
-
-### Oppgave 4.3: Passordvalidering
-Lag et system som sjekker om et passord er sterkt nok. Del opp i følgende funksjoner:
-- `har_stor_bokstav(passord)` - sjekker om passordet inneholder minst én stor bokstav
-- `har_liten_bokstav(passord)` - sjekker om passordet inneholder minst én liten bokstav
-- `har_tall(passord)` - sjekker om passordet inneholder minst ett tall
-- `har_spesialtegn(passord)` - sjekker om passordet inneholder minst ett spesialtegn
-- `er_langt_nok(passord)` - sjekker om passordet er minst 8 tegn langt
-
-Lag til slutt en hovedfunksjon `valider_passord(passord)` som bruker alle disse funksjonene og returnerer True bare hvis alle kravene er oppfylt.
-
-### Oppgave 4.4: Tekstbehandling
-Lag et system for å analysere og modifisere tekst med følgende funksjoner:
-- `fjern_tegnsetting(tekst)` - fjerner all tegnsetting fra teksten
-- `tell_ord(tekst)` - teller antall ord i teksten
-- `finn_lengste_ord(tekst)` - finner det lengste ordet i teksten
-- `lag_akronym(tekst)` - lager et akronym av første bokstav i hvert ord
-
-Lag deretter en funksjon `analyser_tekst(tekst)` som bruker alle funksjonene og returnerer en ordbok med resultatene.
+- `bland(ingrediens1, ingrediens2)` - blander to ingredienser
+- `kok(ingrediens)` - koker en ingrediens
+- `knus(ingrediens)` - knuser en ingrediens
+- `lagBrygg(oppskrift)` - følger en heksebrygg-oppskrift
 
 ```python
 # Eksempel på bruk:
-tekst = "Python er et morsomt programmeringsspråk!"
-resultat = analyser_tekst(tekst)
-print(f"Antall ord: {resultat['antall_ord']}")
-print(f"Lengste ord: {resultat['lengste_ord']}")
-print(f"Akronym: {resultat['akronym']}")
+resultat = lagBrygg(["øgleøyne", "flaggermusvinger"])
+print(f"Din brygg er: {resultat} 🧪")
 ```
 
-### Oppgave 4.5: Butikksystem
-Lag et enkelt butikksystem med følgende funksjoner:
-- `opprett_vare(navn, pris)` - oppretter en ordbok som representerer en vare
-- `beregn_pris(vare, antall)` - beregner totalprisen for et antall av en vare
-- `beregn_moms(pris)` - beregner moms (25% av prisen)
-- `formater_kvittering(varer, antall)` - lager en pen kvittering som tekst
+### Oppgave 4.3: Monstervalidering
+Lag et system som sjekker om et monster er skummelt nok. Del opp i følgende funksjoner:
+- `har_skarpe_tenner(monster)` - sjekker om monsteret har skarpe tenner
+- `kan_fly(monster)` - sjekker om monsteret kan fly
+- `er_nattaktiv(monster)` - sjekker om monsteret er aktivt om natten
+- `har_magiske_krefter(monster)` - sjekker om monsteret har magiske krefter
+- `er_stort_nok(monster)` - sjekker om monsteret er minst 2 meter høyt
 
-Lag til slutt en funksjon `lag_ordre(handleliste)` som tar imot en liste med varer og antall, og produserer en fullstendig kvittering.
+Lag til slutt en hovedfunksjon `valider_monster(monster)` som bruker alle disse funksjonene.
+
+### Oppgave 4.4: Spøkelseshistorie-generator
+Lag et system for å generere spøkelseshistorier med følgende funksjoner:
+- `velg_setting()` - velger tilfeldig sted (hjemsøkt hus, kirkegård, etc.)
+- `velg_monster()` - velger tilfeldig monster
+- `velg_hendelse()` - velger tilfeldig skummel hendelse
+- `lag_historie(lengde)` - genererer en historie av ønsket lengde
 
 ```python
 # Eksempel på bruk:
-handleliste = [
-    {"vare": opprett_vare("Melk", 23.50), "antall": 2},
-    {"vare": opprett_vare("Brød", 35.90), "antall": 1}
+historie = lag_historie(3)  # Genererer historie med 3 hendelser
+print(f"🦇 Din spøkelseshistorie: {historie}")
+```
+
+### Oppgave 4.5: Godteributikk-system
+Lag et Halloween-butikksystem med følgende funksjoner:
+- `opprett_godteri(navn, pris, skremmefaktor)` - oppretter et godteri
+- `beregn_pris(godteri, antall)` - beregner totalprisen
+- `beregn_sukkerinnhold(godteri)` - beregner sukkermengden
+- `formater_kvittering(handlekurv)` - lager en spooky kvittering
+
+```python
+# Eksempel på bruk:
+handlekurv = [
+    {"godteri": opprett_godteri("Øyeeple-gelé", 15.50, 8), "antall": 3},
+    {"godteri": opprett_godteri("Vampyrtannpinner", 25.90, 9), "antall": 2}
 ]
-print(lag_ordre(handleliste))
+print(lag_ordre(handlekurv)) # 🍬
 ```
 
-### Oppgave 4.6: Spillsystem
-Lag et enkelt spill-system med følgende funksjoner:
-- `opprett_spiller(navn)` - oppretter en spiller med navn og start-HP (100)
-- `angrip(angriper, forsvarer)` - håndterer et angrep mellom to spillere
-- `helbred(spiller, mengde)` - helbreder en spiller
-- `er_i_live(spiller)` - sjekker om en spiller fortsatt lever
-- `vis_status(spiller)` - viser spillerens nåværende status
-
-Lag deretter en funksjon `kjør_kamp(spiller1, spiller2)` som simulerer en kamp mellom to spillere.
+### Oppgave 4.6: Monster-kampssystem
+Lag et enkelt kampsystem med følgende funksjoner:
+- `opprett_monster(navn, type)` - oppretter et monster med spesielle egenskaper
+- `angrip(monster1, monster2)` - håndterer et angrep mellom to monstre
+- `bruk_spesialevne(monster)` - aktiverer monsteres spesialevne
+- `er_beseiret(monster)` - sjekker om et monster er beseiret
+- `vis_monster_status(monster)` - viser monsteres nåværende tilstand
 
 ```python
 # Eksempel på bruk:
-spiller1 = opprett_spiller("Thor")
-spiller2 = opprett_spiller("Loki")
-kjør_kamp(spiller1, spiller2)
+vampyr = opprett_monster("Dracula", "vampyr")
+varulv = opprett_monster("Fenris", "varulv")
+kjør_monsterkamp(vampyr, varulv) # 🧛‍♂️ vs 🐺
 ```
-
-[Resten av innholdet forblir det samme...]
-## Utfordringsoppgave
-Lag et enkelt tekstbasert spill der spilleren skal gjette et tall mellom 1 og 100. Bruk følgende funksjoner:
-- `lag_tilfeldig_tall()` - genererer et tilfeldig tall mellom 1 og 100
-- `sjekk_gjetting(gjetting, fasit)` - returnerer "For høyt", "For lavt" eller "Riktig!"
-- `spill_runde()` - håndterer en hel spillrunde
-- `hovedprogram()` - starter spillet og lar spilleren spille flere runder
-
-Tips: Bruk `random.randint(1, 100)` for å generere tilfeldige tall.
-
 
 ## Ekspertoppgaver 🏆
 Disse oppgavene er for deg som virkelig vil utfordre deg selv!
 
-### Ekspertoppgave 1: Fibonacci-kalkulator med cache
-Lag et program som regner ut Fibonacci-tall effektivt ved hjelp av flere funksjoner og minnelagring (caching).
+### Ekspertoppgave 1: Forbannelseskalkulator 🧙‍♀️
+Lag et program som kan beregne styrken og varigheten av magiske forbannelser ved hjelp av rekursjon og minnelagring.
 
 1. Lag følgende funksjoner:
-- `lag_fibonacci_cache()` - oppretter en ordbok for å lagre tidligere utregnede Fibonacci-tall
-- `fibonacci(n, cache)` - regner ut det n-te Fibonacci-tallet ved hjelp av cache
-- `print_fibonacci_sekvens(antall)` - skriver ut de første n Fibonacci-tallene
-- `finn_fibonacci_under(maksverdi)` - finner alle Fibonacci-tall under en gitt verdi
+- `beregn_forbannelse_styrke(ingredienser, måne_fase)` 
+- `kombinerer_forbannelser(forbannelse1, forbannelse2)`
+- `finn_motgift(forbannelse)`
+- `simuler_forbannelse_over_tid(forbannelse, dager)`
 
 2. Programmet skal:
-- Bruke rekursjon OG iterasjon (lag to ulike versjoner)
-- Håndtere store tall effektivt (test med n = 1000)
-- Inkludere tidtaking for å sammenligne de ulike metodene
-- Ha feilhåndtering for negative tall og andre ugyldige input
+- Håndtere kombinasjoner av ulike ingredienser
+- Beregne hvordan månefaser påvirker styrken
+- Finne optimale motgifter
+- Visualisere forbannelsens styrke over tid
 
-```python
-# Eksempel på bruk:
-cache = lag_fibonacci_cache()
-print(fibonacci(100, cache))  # Skal regne ut det 100. Fibonacci-tallet lynraskt
-print(finn_fibonacci_under(1000))  # Skal finne alle Fibonacci-tall under 1000
-```
-
-### Ekspertoppgave 2: Avansert Tekstanalyse
-Lag et program som kan analysere tekst ved hjelp av flere spesialiserte funksjoner. Programmet skal kunne analysere både enkelttekster og sammenligne flere tekster.
+### Ekspertoppgave 2: Avansert Spøkelsesdeteksjon 👻
+Lag et program som kan analysere "spøkelsesaktivitet" i forskellige bygninger.
 
 1. Lag følgende hovedfunksjoner:
-- `analyser_tekst(tekst)` - hovedfunksjon som kaller andre funksjoner og samler resultater
-- `finn_ordfrekvens(tekst)` - lager ordbok med ord og deres frekvens
-- `finn_setninger(tekst)` - deler tekst inn i setninger
-- `beregn_lesbarhet(tekst)` - regner ut tekstens lesbarhetsnivå
-- `finn_vanligste_ordkombinasjoner(tekst, lengde)` - finner vanlige ordmønstre
+- `analyser_aktivitet(målinger)` - analyserer EMF-målinger og temperaturfall
+- `identifiser_spøkelsestype(mønstre)` - kategoriserer type spøkelse
+- `beregn_hjemsøkelsesnivå(data)` - estimerer hvor hjemsøkt et sted er
+- `generer_aktivitetsrapport(sted, tid, målinger)` - lager detaljert rapport
 
-2. Lag hjelpefunksjoner for:
-- Fjerning av tegnsetting og spesialtegn
-- Normalisering av tekst (store/små bokstaver)
-- Identifisering av ordklasser (verb, substantiv, etc.)
-- Beregning av statistikk (gjennomsnitt, median, etc.)
+2. Implementer avansert dataanalyse for:
+- Mønstergjenkjenning i spøkelsesaktivitet
+- Korrelasjon mellom ulike typer aktivitet
+- Prediksjon av fremtidig aktivitet
+- Visualisering av "hot spots" i bygninger
 
-3. Lag analysefunksjoner som:
-- Finner de mest unike ordene i en tekst sammenlignet med en annen
-- Identifiserer mulige sitater eller plagiering
-- Genererer en lesbarhetsscore basert på:
-  * Gjennomsnittlig ordlengde
-  * Gjennomsnittlig setningslengde
-  * Andel vanskelige ord
-  * Variasjon i ordbruk
-
-```python
-# Eksempel på bruk:
-tekst1 = les_fil("tekst1.txt")
-tekst2 = les_fil("tekst2.txt")
-
-analyse1 = analyser_tekst(tekst1)
-print("Lesbarhetsscore:", analyse1["lesbarhet"])
-print("Mest brukte ordkombinasjoner:", analyse1["ordkombinasjoner"])
-
-likheter = sammenlign_tekster(tekst1, tekst2)
-print("Likhetsgrad:", likheter["prosent"])
-print("Mulige sitater:", likheter["sitater"])
-```
-
-4. Utfordringer programmet må håndtere:
-- Store tekstmengder (flere MB)
-- Tekster på flere språk
-- Ulike filformater
-- Feilaktig formatert input
-- Minneeffektiv håndtering av store datasett
-
+## Bonustips for alle oppgavene 🎃
+- Husk å legge til dokumentasjon (docstrings) i funksjonene dine
+- Test funksjonene dine grundig med forskjellige input-verdier
+- Tenk på hva som kan gå galt og håndter feil på en pen måte
+- Ha det gøy mens du programmerer! 👻
