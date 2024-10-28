@@ -24,33 +24,49 @@ Faktoriser uttrykket $$x^2 + 6x + 9$$:
 1. Faktoriser ved å finne fellesfaktor:
   
   a) $$6x^2 + 12x$$
+
   b) $$15x^2 - 25x$$
+
   c) $$4xy + 8x$$
+
   d) $$x^3 + x^2$$
 
 2. Faktoriser uttrykkene:
   
   a) $$3x^2 + 12x$$
+
   b) $$x^2 - 16$$
+
   c) $$4x^2 - 9$$
+
   d) $$2x^2 + 10x + 12$$
+
   e) $$x^2 + 6x + 9$$
+
   f) $$3x^2 - 27$$
 
 3. Finn fellesfaktor og faktoriser videre der det er mulig:
   
   a) $$x(x + 3) + 2(x + 3)$$
+
   b) $$4x^2 + 12x + 9$$
+
   c) $$(x + 1)(x - 2) + (x + 1)$$
+
   d) $$x^2 - 5x + 6$$
 
 4. Faktoriser disse uttrykkene:
   
   a) $$(x + 2)^2 - 4$$
+
   b) $$x^2 + 2x - 3x - 6$$
+
   c) $$25 - x^2$$
+
   d) $$x^2 + 8x + 16$$
+
   e) $$2x^2 + 7x + 3$$
+
   f) $$3x^2 - 5x - 2$$
 
 ## Del 2: Rasjonale uttrykk
@@ -69,27 +85,38 @@ For å finne definisjonsmengden til $$\frac{x + 2}{x^2 - 4}$$ må vi:
 5. Forkort følgende uttrykk:
    
    a) $$\frac{x^2 - 4}{x^2 - 2x}$$
+
    b) $$\frac{x^2 + 5x + 6}{x^2 + 7x + 12}$$
+
    c) $$\frac{x^2 - 1}{x^2 - 4}$$
+
    d) $$\frac{x^2 + 2x}{x}$$
+
    e) $$\frac{x^3 - 8}{x - 2}$$
+
 
 6. Forenkle:
    
    a) $$\frac{x^2 - 1}{x - 1} + \frac{x + 3}{x - 1}$$
+
    b) $$\frac{x^2 + 3x}{x} - \frac{x + 5}{x}$$
+
    c) $$\frac{x + 2}{x - 3} \cdot \frac{x - 3}{x + 2}$$
+
 
 7. Bestem hvilke verdier av x som gir mening for uttrykkene:
    
    a) $$\frac{2x + 1}{x^2 - 9}$$
+
    b) $$\frac{1}{x^2 + 2x + 1}$$
+
    c) $$\frac{x + 3}{x^2 - 4x + 4}$$
 
 ## Del 3: Likninger
 
 ### Eksempel
 Løs likningen $$x^2 + 6x + 9 = 0$$:
+
 1. Gjenkjenn uttrykket som et fullstendig kvadrat: $$(x + 3)^2 = 0$$
 2. Løs likningen: $$x + 3 = 0$$
 3. Dermed er $$x = -3$$
@@ -104,9 +131,13 @@ For likningen $$\frac{x}{x - 2} = 3$$:
 8. Løs likningene:
    
    a) $$x^2 + 6x = -9$$
+
    b) $$3x^2 = 12$$
+
    c) $$\frac{2x^2 - x - 3}{x - 2} = x + 1$$
+
    d) $$\frac{x}{x - 1} = 2$$
+
 
 9. En bedrift selger x enheter av en vare.
    Inntekten minus kostnadene er gitt ved uttrykket $$-x^2 + 50x - 100$$.
@@ -125,8 +156,11 @@ For likningen $$\frac{x}{x - 2} = 3$$:
 11. Løs likningene:
    
    a) $$(x - 3)(x + 2) = (x - 1)(x + 4)$$
+
    b) $$\frac{x^2 - 1}{x + 1} = x - 2$$
+
    c) $$x^2 - 6x + 9 = 0$$
+
    d) $$\frac{x + 1}{x - 2} = 3$$
 
 ### Undersøkelse av likninger med parameter
