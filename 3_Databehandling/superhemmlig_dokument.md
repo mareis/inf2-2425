@@ -6,7 +6,7 @@
 - Digitale verktøy (regneark, geogebra, programmeringsverktøy)
 - Skrivesaker
 
-**Total poengsum:** 63 poeng
+**Total poengsum:** 
 
 ---
 
@@ -32,7 +32,7 @@ I en skog står det 10 000 trær. Årlig planting øker antall trær med 8 %, me
 
 ---
 
-## Oppgave 2: Brutto- og nettoinntekt (25 minutter, 17 poeng)
+## Oppgave 2: Brutto- og nettoinntekt (25 minutter, 12 poeng)
 
 ### 2.1 Sammenligning av lønn (8 poeng)
 Sofie og Markus er nyutdannede ingeniører i samme firma. Her er deres lønnsvilkår:
@@ -51,18 +51,18 @@ Sofie og Markus er nyutdannede ingeniører i samme firma. Her er deres lønnsvil
 
 **a)** Beregn månedlig nettoinntekt for både Sofie og Markus etter alle trekk. Vis utregningen. (4 poeng)
 
-**b)** Beregn differansen i månedlig nettoinntekt mellom Sofie og Markus. (1 poeng)
+**b)** Beregn differansen i månedlig nettoinntekt mellom Sofie og Markus. (2 poeng)
 
-**c)** Beregn Sofies feriepenger når feriepengesatsen er 10,2 % av årslønnen. (3 poeng)
+**c)** Beregn Sofies feriepenger når feriepengesatsen er 10,2 % av årslønnen. (2 poeng)
 
-### 2.2 Lønnsendring og skatt (9 poeng)
+### 2.2 Lønnsendring og skatt (4 poeng)
 En arbeidstaker har følgende endringer i sin økonomi:
 - Bruttolønn øker fra 450 000 kroner til ny lønn med 4 % økning
 - Skattesats øker fra 30 % til 31 %
 
-**a)** Beregn endringen i årlig nettoinntekt etter disse endringene. (6 poeng)
+**a)** Beregn endringen i årlig nettoinntekt etter disse endringene. (2 poeng)
 
-**b)** Forklar hvordan endringene i lønn og skatt påvirker den endelige nettoinntekten. (3 poeng)
+**b)** Forklar hvordan endringene i lønn og skatt påvirker den endelige nettoinntekten. (2 poeng)
 
 ---
 
@@ -89,7 +89,7 @@ Beregn rentekostnadene etter 6 måneder.
 
 ---
 
-## Oppgave 4: Familieøkonomi og budsjett (25 minutter, 10 poeng)
+## Oppgave 4: Familieøkonomi og budsjett (25 minutter, 8 poeng)
 
 En familie med to voksne og to barn har følgende månedlige utgifter:
 
@@ -117,7 +117,7 @@ En familie med to voksne og to barn har følgende månedlige utgifter:
 - Klær og sko
 - Andre utgifter
 
-Beregn hvor mye ekstra familien kan spare per måned etter disse reduksjonene. (4 poeng)
+Beregn hvor mye ekstra familien kan spare per måned etter disse reduksjonene. (2 poeng)
 
 ---
 
