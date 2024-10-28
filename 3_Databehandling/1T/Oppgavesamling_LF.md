@@ -7,6 +7,7 @@ $$6x^2 + 12x$$
 
 ### Løsning
 Finn fellesfaktor. Vi ser at 6x går igjen i begge ledd:
+
 $$6x^2 + 12x = 6x(x + 2)$$
 
 ### Svar
@@ -17,6 +18,7 @@ $$15x^2 - 25x$$
 
 ### Løsning
 Finn fellesfaktor. Vi ser at 5x går igjen i begge ledd:
+
 $$15x^2 - 25x = 5x(3x - 5)$$
 
 ### Svar
@@ -27,6 +29,7 @@ $$4xy + 8x$$
 
 ### Løsning
 Finn fellesfaktor. Vi ser at 4x går igjen i begge ledd:
+
 $$4xy + 8x = 4x(y + 2)$$
 
 ### Svar
@@ -37,6 +40,7 @@ $$x^3 + x^2$$
 
 ### Løsning
 Finn fellesfaktor. Vi ser at x² går igjen i begge ledd:
+
 $$x^3 + x^2 = x^2(x + 1)$$
 
 ### Svar
@@ -47,6 +51,7 @@ $$3x^2 + 12x$$
 
 ### Løsning
 Finn fellesfaktor. Vi ser at 3x går igjen i begge ledd:
+
 $$3x^2 + 12x = 3x(x + 4)$$
 
 ### Svar
@@ -57,6 +62,7 @@ $$x^2 - 16$$
 
 ### Løsning
 Dette er på formen $$a^2 - b^2$$ som er konjugatsetningen:
+
 $$x^2 - 16 = x^2 - 4^2 = (x+4)(x-4)$$
 
 ### Svar
@@ -67,6 +73,7 @@ $$4x^2 - 9$$
 
 ### Løsning
 Dette er på formen $$a^2 - b^2$$ som er konjugatsetningen:
+
 $$4x^2 - 9 = (2x)^2 - 3^2 = (2x+3)(2x-3)$$
 
 ### Svar
@@ -89,6 +96,7 @@ $$x^2 + 6x + 9$$
 
 ### Løsning
 Dette er et fullstendig kvadrat:
+
 $$x^2 + 6x + 9 = (x + 3)^2$$
 
 ### Svar
@@ -99,8 +107,10 @@ $$3x^2 - 27$$
 
 ### Løsning
 1. Faktoriser ut fellesfaktor 3:
+
   $$3x^2 - 27 = 3(x^2 - 9)$$
 2. Bruk konjugatsetningen på $$x^2 - 9$$:
+
   $$3(x^2 - 9) = 3(x+3)(x-3)$$
 
 ### Svar
@@ -111,6 +121,7 @@ $$x(x + 3) + 2(x + 3)$$
 
 ### Løsning
 Vi ser at $(x + 3)$ går igjen i begge ledd:
+
 $$x(x + 3) + 2(x + 3) = (x + 3)(x + 2)$$
 
 ### Svar
@@ -121,7 +132,9 @@ $$4x^2 + 12x + 9$$
 
 ### Løsning
 Trinomfaktorisering: vi ser at $$a = 4$$, $$b = 12$$, $$c = 9$$.
+
 1. Finn to tall med sum 12 og produkt 36: 6 og 6
+
 2. $$4x^2 + 12x + 9 = 4x^2 + 6x + 6x + 9 = 2x(2x + 3) + 3(2x + 3) = (2x + 3)^2$$
 
 ### Svar
@@ -132,6 +145,7 @@ $$(x + 1)(x - 2) + (x + 1)$$
 
 ### Løsning
 Vi ser at $(x + 1)$ er fellesfaktor:
+
 $$(x + 1)(x - 2) + (x + 1) = (x + 1)(x - 2 + 1) = (x + 1)(x - 1)$$
 
 ### Svar
@@ -142,7 +156,9 @@ $$x^2 - 5x + 6$$
 
 ### Løsning
 Trinomfaktorisering: vi ser at $$a = 1$$, $$b = -5$$, $$c = 6$$.
+
 1. Finn to tall med sum -5 og produkt 6: -2 og -3
+
 2. $$x^2 - 5x + 6 = x^2 - 2x - 3x + 6 = x(x - 2) - 3(x - 2) = (x - 2)(x - 3)$$
 
 ### Svar
@@ -153,6 +169,7 @@ $$(x + 2)^2 - 4$$
 
 ### Løsning
 Dette er på formen $$a^2 - b^2$$ som er konjugatsetningen:
+
 $$(x + 2)^2 - 4 = (x + 2 + 2)(x + 2 - 2) = (x + 4)(x)$$
 
 ### Svar
@@ -163,9 +180,15 @@ $$x^2 + 2x - 3x - 6$$
 
 ### Løsning
 1. Samle like ledd: 
+
   $$x^2 + 2x - 3x - 6 = x^2 - x - 6$$
-2. Trinomfaktorisering: $$a = 1$$, $$b = -1$$, $$c = -6$$
+
+2. Trinomfaktorisering: 
+
+$$a = 1$$, $$b = -1$$, $$c = -6$$
+
 3. Finn to tall med sum -1 og produkt -6: -3 og 2
+
 4. $$x^2 - x - 6 = x^2 + 2x - 3x - 6 = x(x + 2) - 3(x + 2) = (x - 3)(x + 2)$$
 
 ### Svar
@@ -176,19 +199,19 @@ $$25 - x^2$$
 
 ### Løsning
 Dette er på formen $$a^2 - b^2$$ som er konjugatsetningen:
+
 $$25 - x^2 = 5^2 - x^2 = (5+x)(5-x)$$
 
 ### Svar
 $$(5+x)(5-x)$$
 
 
-[Tidligere løsninger fortsetter...]
-
 ### Oppgave 4d)
 $$x^2 + 8x + 16$$
 
 ### Løsning
 Dette er et fullstendig kvadrat:
+
 $$x^2 + 8x + 16 = (x + 4)^2$$
 
 ### Svar
@@ -199,6 +222,7 @@ $$2x^2 + 7x + 3$$
 
 ### Løsning
 Dette er trinomfaktorisering med $$a = 2$$, $$b = 7$$, $$c = 3$$.
+
 1. $$2 \cdot 3 = 6$$, vi trenger to tall som har sum 7 og produkt 6
 2. Tallene er 1 og 6
 3. $$2x^2 + 7x + 3 = 2x^2 + 6x + x + 3 = 2x(x + 3) + 1(x + 3) = (2x + 1)(x + 3)$$
@@ -211,6 +235,7 @@ $$3x^2 - 5x - 2$$
 
 ### Løsning
 Dette er trinomfaktorisering med $$a = 3$$, $$b = -5$$, $$c = -2$$.
+
 1. $$3 \cdot (-2) = -6$$, vi trenger to tall som har sum -5 og produkt -6
 2. Tallene er -6 og 1
 3. $$3x^2 - 5x - 2 = 3x^2 - 6x + x - 2 = 3x(x - 2) + 1(x - 2) = (3x + 1)(x - 2)$$
@@ -313,6 +338,7 @@ $$\frac{2x + 1}{x^2 - 9}$$
 
 ### Løsning
 Nevneren kan faktoriseres: $$x^2 - 9 = (x+3)(x-3)$$
+
 Uttrykket gir ikke mening når nevneren er 0, altså når $$x = 3$$ eller $$x = -3$$
 
 ### Svar
@@ -323,6 +349,7 @@ $$\frac{1}{x^2 + 2x + 1}$$
 
 ### Løsning
 Nevneren kan faktoriseres: $$x^2 + 2x + 1 = (x+1)^2$$
+
 Uttrykket gir ikke mening når $$x = -1$$
 
 ### Svar
@@ -333,6 +360,7 @@ $$\frac{x + 3}{x^2 - 4x + 4}$$
 
 ### Løsning
 Nevneren kan faktoriseres: $$x^2 - 4x + 4 = (x-2)^2$$
+
 Uttrykket gir ikke mening når $$x = 2$$
 
 ### Svar
@@ -345,9 +373,13 @@ $$x^2 + 6x = -9$$
 
 ### Løsning
 1. Samle alle ledd på venstre side:
+
    $$x^2 + 6x + 9 = 0$$
+
 2. Dette er et fullstendig kvadrat:
+
    $$(x + 3)^2 = 0$$
+
 3. Løs likningen:
    $$x + 3 = 0$$
    $$x = -3$$
@@ -360,9 +392,13 @@ $$3x^2 = 12$$
 
 ### Løsning
 1. Del begge sider på 3:
+
    $$x^2 = 4$$
+
 2. To løsninger:
+
    $$x = \pm 2$$
+
 
 ### Svar
 $$x = 2$$ eller $$x = -2$$
@@ -408,12 +444,15 @@ Inntekten minus kostnadene er gitt ved uttrykket $$-x^2 + 50x - 100$$.
 
 ### Løsning
 a) For å finne maksimum, omform til fullstendig kvadrat:
+
 1. $$-x^2 + 50x - 100$$
 2. $$-(x^2 - 50x + 625 - 625) - 100$$
 3. $$-((x - 25)^2) + 525$$
 
 b) Største overskudd er når $$x = 25$$
+
    Sett inn x = 25:
+
    $$-(25 - 25)^2 + 525 = 525$$
 
 ### Svar
@@ -425,19 +464,23 @@ En blomsterkasse med mål 100 cm × 60 cm.
 
 ### Løsning
 a) Når vi klipper ut kvadrater med side x i hjørnene, blir lengden redusert med x på hver side.
+
    Ny lengde = 100 - 2x
 
 b) Tilsvarende for bredden:
    Ny bredde = 60 - 2x
 
 c) Areal = lengde × bredde
+
    $$A = (100-2x)(60-2x)$$
    $$A = 6000 - 200x - 120x + 4x^2$$
    $$A = 4x^2 - 320x + 6000$$
 
 ### Svar
 a) $$(100 - 2x)$$ cm
+
 b) $$(60 - 2x)$$ cm
+
 c) $$A = 4x^2 - 320x + 6000$$ kvadratcentimeter
 
 ### Oppgave 11a)
@@ -445,11 +488,17 @@ $$(x - 3)(x + 2) = (x - 1)(x + 4)$$
 
 ### Løsning
 1. Utvid parentesene:
+
    $$x^2 - x - 6 = x^2 + 3x - 4$$
+
 2. Trekk fra høyre side på begge sider:
+
    $$-4x - 2 = 0$$
+
 3. Løs likningen:
+
    $$-4x = 2$$
+
    $$x = -\frac{1}{2}$$
 
 ### Svar
@@ -460,14 +509,22 @@ $$\frac{x^2 - 1}{x + 1} = x - 2$$
 
 ### Løsning
 1. Multipliser begge sider med $(x + 1)$:
+
    $$x^2 - 1 = (x - 2)(x + 1)$$
+
 2. Utvid høyre side:
+
    $$x^2 - 1 = x^2 - x - 2$$
+
 3. Trekk fra $x^2$ på begge sider:
+
    $$-1 = -x - 2$$
+
 4. Løs likningen:
+
    $$-1 + 2 = -x$$
    $$x = 1$$
+
 5. Sjekk at løsningen ikke gir $x = -1$
 
 ### Svar
@@ -478,6 +535,7 @@ $$x^2 - 6x + 9 = 0$$
 
 ### Løsning
 Dette er et fullstendig kvadrat:
+
 1. $$x^2 - 6x + 9 = (x - 3)^2 = 0$$
 2. $$x - 3 = 0$$
 3. $$x = 3$$
@@ -490,14 +548,22 @@ $$\frac{x + 1}{x - 2} = 3$$
 
 ### Løsning
 1. Multipliser begge sider med $(x - 2)$:
+
    $$x + 1 = 3(x - 2)$$
+
 2. Utvid høyre side:
+
    $$x + 1 = 3x - 6$$
+
 3. Trekk fra 3x på begge sider:
+
    $$1 - 2x = -6$$
+
 4. Løs likningen:
+
    $$-2x = -7$$
    $$x = \frac{7}{2}$$
+
 5. Sjekk at løsningen ikke gir $x = 2$
 
 ### Svar
@@ -508,22 +574,34 @@ $$x^2 + 4x + k = 0$$
 
 ### Løsning
 a) For $$k = 4$$:
+
    $$x^2 + 4x + 4 = (x + 2)^2 = 0$$
+
    $$x = -2$$
 
 b) For $$k = 0$$:
+
    $$x^2 + 4x = 0$$
+
    $$x(x + 4) = 0$$
+
    $$x = 0$$ eller $$x = -4$$
 
+
 c) For $$k = -4$$:
+
    $$x^2 + 4x - 4 = 0$$
+
    Bruk abc-formelen:
+
    $$x = \frac{-4 \pm \sqrt{16 + 16}}{2} = \frac{-4 \pm \sqrt{32}}{2} = -2 \pm \sqrt{8}$$
 
 d) For én løsning må diskriminanten være 0:
+
    $$D = 16 - 4k = 0$$
+
    $$k = 4$$
+
 
 ### Svar
 a) $$x = -2$$
