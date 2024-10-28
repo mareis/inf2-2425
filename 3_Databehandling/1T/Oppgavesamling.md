@@ -176,13 +176,13 @@ For likningen $$x^2 + kx + 4 = 0$$:
 
 12. Undersøk antall løsninger for likningen $$x^2 + 4x + k = 0$$ når:
    
-   a) $$k = 4$$
+   - $$k = 4$$
 
-   b) $$k = 0$$
+   - $$k = 0$$
 
-   c) $$k = -4$$
+   - $$k = -4$$
 
-   d) For hvilke verdier av k har likningen nøyaktig én løsning?
+For hvilke verdier av k har likningen nøyaktig én løsning?
 
 13. For hvilke verdier av k har likningen $$x^2 - kx + 16 = 0$$ to ulike reelle løsninger?
 
