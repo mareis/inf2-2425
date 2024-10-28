@@ -101,11 +101,19 @@ Bruker ABC-formelen:
 $$x = \frac{5 \pm \sqrt{25 - 16}}{4} = \frac{5 \pm \sqrt{9}}{4} = \frac{5 \pm 3}{4}$$
 Som gir løsningene $$x = 2$$ eller $$x = \frac{1}{2}$$
 
-d) Vi skal løse $$\frac{2x^2 + 16x - 18}{x + 3} = 0$$
-For at brøken skal være null, må telleren være null mens nevneren $$\neq -3$$
-$$2x^2 + 16x - 18 = 0$$
-$$x = \frac{-16 \pm \sqrt{256 + 144}}{4} = \frac{-16 \pm \sqrt{400}}{4} = \frac{-16 \pm 20}{4}$$
-Som gir løsningene $$x = 1$$ eller $$x = -9$$
+d) d) Vi skal løse $$\frac{2x^2 + 7x - 4}{x + 3} = 2x - 1$$
+Ganger med fellesnevner $(x + 3)$ på begge sider:
+$$(2x^2 + 7x - 4) = (2x - 1)(x + 3)$$
+Utvider høyre side:
+$$2x^2 + 7x - 4 = 2x^2 + 6x - x - 3$$
+$$2x^2 + 7x - 4 = 2x^2 + 5x - 3$$
+Trekker fra like ledd:
+$$2x - 1 = 0$$
+Løser likningen:
+$$x = \frac{1}{2}$$
+Sjekker definisjonsmengde: $$x \neq -3$$
+$$\frac{1}{2} \neq -3$$, så dette er en gyldig løsning.
+Svar: $$x = \frac{1}{2}$$
 
 ## Oppgave 6
 
