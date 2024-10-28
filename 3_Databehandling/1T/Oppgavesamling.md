@@ -139,11 +139,15 @@ For likningen $$x^2 + kx + 4 = 0$$:
 4. For én løsning må $$D = 0$$: $$k^2 = 16$$ gir $$k = 4$$ eller $$k = -4$$
 5. For ingen løsninger må $$D < 0$$: $$k^2 < 16$$ gir $$-4 < k < 4$$
 
+
 12. Undersøk antall løsninger for likningen $$x^2 + 4x + k = 0$$ når:
    
    a) $$k = 4$$
+
    b) $$k = 0$$
+
    c) $$k = -4$$
+
    d) For hvilke verdier av k har likningen nøyaktig én løsning?
 
 13. For hvilke verdier av k har likningen $$x^2 - kx + 16 = 0$$ to ulike reelle løsninger?
@@ -172,6 +176,7 @@ For likningen $$x^2 + kx + 4 = 0$$:
 
 ### Eksempel
 For å vise at $$(x + 2)(x + 3) = x^2 + 5x + 6$$ er en identitet:
+
 1. Utvid venstre side: $$(x + 2)(x + 3) = x^2 + 3x + 2x + 6$$
 2. Samle like ledd: $$x^2 + 5x + 6$$
 3. Dette er lik høyre side, så uttrykket er en identitet
@@ -198,15 +203,19 @@ For å vise at $$(x + 2)(x + 3) = x^2 + 5x + 6$$ er en identitet:
 
 ### Eksempel
 Omform $$x^2 + 8x + 12$$ til fullstendig kvadrat:
+
 1. Halver koeffisienten foran x: $$8/2 = 4$$
 2. Kvadrer dette tallet: $$4^2 = 16$$
 3. Trekk fra differansen mellom 16 og det opprinnelige konstantleddet:  
+4. 
   $$x^2 + 8x + 12 = x^2 + 8x + 16 - 16 + 12 = (x + 4)^2 - 4$$
 
 20. Gjør ferdig til fullstendig kvadrat ved å fylle inn det som mangler:
   
    a) $$x^2 + 6x + ???$$
+
    b) $$x^2 - 4x + ???$$
+
    c) $$x^2 + 2x + ???$$
 
 21. Bestem største eller minste verdi av uttrykket $$-x^2 + 8x - 12$$ ved å omforme til fullstendig kvadrat.
