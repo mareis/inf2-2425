@@ -71,7 +71,24 @@
     c) $$x^2 - 6x + 9 = 0$$
     d) $$\frac{x + 1}{x - 2} = 3$$
 
-## Del 5: Identiteter 
+
+## Del 5: Uttrykk til graf
+# Oppgave
+
+Nedenfor ser du fire grafer merket A til D. Knytt uttrykket $$x^2 - 2x - 8$$ til en av grafene. Begrunn svaret ditt.
+
+## Graf A
+<svg width="400" height="400" xmlns="http://www.w3.org/2000/svg">
+  <!-- Koordinatsystem -->
+  <line x1="200" y1="0" x2="200" y2="400" stroke="black"/>
+  <line x1="0" y1="200" x2="400" y2="200" stroke="black"/>
+
+  <!-- Graf: y = x^2 - 2x + 8 -->
+  <path d="M 0 320 
+           C 100 200, 200 120, 400 80" stroke="blue" fill="none"/>
+</svg>
+
+## Del 6: Identiteter 
 
 14. Vis at disse er identiteter ved å utvide høyre side:
     a) $$(x + 3)^2 = x^2 + 6x + 9$$
@@ -88,7 +105,8 @@
     b) $$(a-b)^2 = a^2 - 2ab + b^2$$
     c) $$a^2 - b^2 = (a+b)^2 - 2ab$$
 
-## Del 6: Praktiske anvendelser
+
+## Del 7: Praktiske anvendelser
 
 17. Et rektangulært fotballmål skal ha areal 24 kvadratmeter.
     La høyden være x meter.
