@@ -130,10 +130,10 @@ En aksje har hatt en økning på 55 % til sammen siste 5 år. Hva er den gjennom
 `nløs(x^5 = 1.55)`
 
 **Output i CAS:**  
-x ≈ 1.0924
+x ≈ 1.0916
 
 **Svar:**  
-Den gjennomsnittlige årlige vekstfaktoren er ca. 1,0924, som tilsvarer en gjennomsnittlig årlig prosentvis vekst på ca. 9,24 %.
+Den gjennomsnittlige årlige vekstfaktoren er ca. 1,0916, som tilsvarer en gjennomsnittlig årlig prosentvis vekst på ca. 9,16 %.
 
 
 ## 2 Anuitetslån <a name="anuitetslan"></a>
