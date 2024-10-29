@@ -1,4 +1,251 @@
-[Previous solutions remain the same through 3.2...]
+# Løsningsforslag - Prøve i Matematikk 2P
+
+## Oppgave 1: Prosentvis endring og vekstfaktor
+
+### 1.1 Endring i salg og omsetning
+
+**a) Sjokoladeplater etter tre år**
+
+Utregning:
+* Startverdi = 50 000 plater
+* Vekstfaktor = 1 + 0,20 = 1,20
+* Antall etter tre år = 50 000 × 1,20³
+
+Excel:
+```
+Startantall:           50000
+Vekstfaktor:          1.2
+Antall etter 3 år:    =A1*A2^3
+```
+
+Svar: Etter tre år vil sjokoladeprodusenten selge 86 400 sjokoladeplater.
+
+**b) Omsetning om fire år**
+
+Utregning:
+* Nåværende omsetning = 2 000 000 kr
+* Vekstfaktor = 1 - 0,05 = 0,95
+* Omsetning om fire år = 2 000 000 × 0,95⁴
+
+Excel:
+```
+Nåværende omsetning:    2000000
+Vekstfaktor:           0.95
+Omsetning etter 4 år:  =A1*A2^4
+```
+
+Svar: Om fire år vil bedriftens omsetning være 1 629 000 kroner.
+
+**c) Omsetning for tre år siden**
+
+Utregning:
+* Nåværende omsetning = 2 000 000 kr
+* For å finne tidligere verdi må vi dele på vekstfaktoren tre ganger
+* Omsetning for tre år siden = 2 000 000 ÷ 0,95³
+
+Excel:
+```
+Nåværende omsetning:      2000000
+Vekstfaktor:             0.95
+Omsetning 3 år siden:    =A1/A2^3
+```
+
+Svar: For tre år siden var bedriftens omsetning 2 332 700 kroner.
+
+### 1.2 Sammensatte endringer
+
+**a) Samlet årlig endring**
+
+Utregning:
+* Vårøkning: 1 + 0,08 = 1,08
+* Høstreduksjon: 1 - 0,02 = 0,98
+* Samlet vekstfaktor = 1,08 × 0,98 = 1,0584
+* Prosentvis endring = (1,0584 - 1) × 100 = 5,84
+
+Excel:
+```
+Vårfaktor:              1.08
+Høstfaktor:             0.98
+Samlet vekstfaktor:     =A1*A2
+Prosentvis endring:     =(A3-1)*100
+```
+
+Svar: Den samlede årlige endringen er en økning på 5,84 %.
+
+**b) Antall trær etter 5 år**
+
+Utregning:
+* Startantall = 10 000 trær
+* Årlig vekstfaktor = 1,0584
+* Antall etter 5 år = 10 000 × 1,0584⁵
+
+Excel:
+```
+Startantall:           10000
+Vekstfaktor:          1.0584
+Antall etter 5 år:    =A1*A2^5
+```
+
+Svar: Etter 5 år vil det være 13 277 trær i skogen.
+
+## Oppgave 2: Brutto- og nettoinntekt
+
+### 2.1 Sammenligning av lønn
+
+**a) Sofies månedlige nettoinntekt**
+
+Utregning:
+1. Trekk før skatt:
+   * Fagforeningskontingent: 500 kr
+   * Pensjonstrekk: 540 000 × 0,02 = 10 800 kr
+   * Sum trekk før skatt = 11 300 kr
+
+2. Trekkgrunnlag for skatt:
+   * Trekkgrunnlag = 540 000 - 11 300 = 528 700 kr
+   * Skatt = 528 700 × 0,34 = 179 758 kr
+
+3. Total beregning:
+   * Bruttolønn: 540 000 kr
+   * - Fagforeningskontingent: 500 kr
+   * - Pensjonstrekk: 10 800 kr
+   * - Skatt: 179 758 kr
+   * = Årlig nettoinntekt: 348 942 kr
+
+4. Månedlig nettoinntekt: 348 942 ÷ 12 = 29 079 kr
+
+Excel:
+```
+Årslønn:                     540000
+Fagforeningskontingent:      500
+Pensjonstrekk:              =A1*0.02
+Sum trekk før skatt:        =A2+A3
+Trekkgrunnlag:              =A1-A4
+Skatt:                      =A5*0.34
+Årlig nettoinntekt:         =A1-A2-A3-A6
+Månedlig nettoinntekt:      =A7/12
+```
+
+Svar: Sofies månedlige nettoinntekt blir 29 079 kroner.
+
+**b) Sofies feriepenger**
+
+Utregning:
+* Årslønn = 540 000 kr
+* Feriepengesats = 10,2 %
+* Feriepenger = 540 000 × 0,102
+
+Excel:
+```
+Årslønn:             540000
+Feriepengesats:      0.102
+Feriepenger:         =A1*A2
+```
+
+Svar: Sofies feriepenger blir 55 080 kroner.
+
+### 2.2 Lønnsendring og skatt
+
+Utregning:
+1. Gammel situasjon:
+   * Bruttolønn = 450 000 kr
+   * Skattesats = 30 %
+   * Nettoinntekt = 450 000 × (1 - 0,30) = 315 000 kr
+
+2. Ny situasjon:
+   * Ny bruttolønn = 450 000 × 1,04 = 468 000 kr
+   * Ny skattesats = 31 %
+   * Ny nettoinntekt = 468 000 × (1 - 0,31) = 322 920 kr
+
+3. Endring i nettoinntekt:
+   * 322 920 - 315 000 = 7 920 kr
+
+Excel:
+```
+Gammel bruttolønn:        450000
+Gammel skattesats:        0.30
+Gammel nettoinntekt:      =A1*(1-A2)
+
+Ny bruttolønn:           =A1*1.04
+Ny skattesats:           0.31
+Ny nettoinntekt:         =A4*(1-A5)
+
+Endring:                 =A6-A3
+```
+
+Svar: Arbeidstakerens årlige nettoinntekt vil øke med 7 920 kroner.
+
+## Oppgave 3: Lån og renter
+
+### 3.1 Annuitetslån
+
+**a) Forklaring annuitetslån**
+
+Dette er et annuitetslån fordi det månedlige terminbeløpet er konstant (2 387 kr) gjennom hele nedbetalingstiden. I hver termin vil en større andel av terminbeløpet gå til avdrag og en mindre andel til renter etterhvert som lånet nedbetales.
+
+**b) Restgjeld etter 12 måneder**
+
+```python
+lånebeløp = 120000
+månedrente = 0.00599
+terminbeløp = 2387
+
+restgjeld = lånebeløp
+sum_renter = 0
+måned = 1
+
+while måned <= 12:
+    rente = restgjeld * månedrente
+    avdrag = terminbeløp - rente
+    restgjeld = restgjeld - avdrag
+    sum_renter = sum_renter + rente
+    måned = måned + 1
+
+print(f"Restgjeld etter 12 måneder: {restgjeld:.0f} kr")
+print(f"Betalte renter første år: {sum_renter:.0f} kr")
+```
+
+Svar: Etter 12 måneder vil restgjelden være 99 502 kroner.
+
+**c) Totale rentekostnader**
+
+```python
+lånebeløp = 120000
+månedrente = 0.00599
+terminbeløp = 2387
+
+restgjeld = lånebeløp
+totale_renter = 0
+måned = 1
+
+while måned <= 60:
+    rente = restgjeld * månedrente
+    avdrag = terminbeløp - rente
+    restgjeld = restgjeld - avdrag
+    totale_renter = totale_renter + rente
+    måned = måned + 1
+
+print(f"Totale rentekostnader: {totale_renter:.0f} kr")
+```
+
+Svar: De totale rentekostnadene over hele låneperioden blir 23 220 kroner.
+
+### 3.2 Kredittkortgjeld
+
+Utregning:
+* Lånebeløp = 15 000 kr
+* Årlig nominell rente = 20 % = 0,20
+* Periode = 6 måneder
+* Rentekostnad = 15 000 × ((1 + 0,20)^(6/12) - 1)
+
+Excel:
+```
+Lånebeløp:              15000
+Årlig rente:            0.20
+Antall måneder:         6
+Rentekostnad:          =A1*((1+A2)^(A3/12)-1)
+```
+
+Svar: Rentekostnadene etter 6 måneder vil være 1 558 kroner.
 
 ## Oppgave 4: Familieøkonomi og budsjett
 
