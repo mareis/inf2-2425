@@ -21,7 +21,7 @@ Faktoriser uttrykket $$x^2 + 6x + 9$$:
 3. Konstantleddet 9 er kvadratet av 3
 4. Derfor er $$x^2 + 6x + 9 = (x + 3)(x + 3) = (x + 3)^2$$
 
-1. Faktoriser ved å finne fellesfaktor:
+1. Faktoriser:
   
   a) $$6x^2 + 12x$$
 
@@ -31,7 +31,7 @@ Faktoriser uttrykket $$x^2 + 6x + 9$$:
 
   d) $$x^3 + x^2$$
 
-2. Faktoriser uttrykkene:
+2. Faktoriser:
   
   a) $$3x^2 + 12x$$
 
@@ -45,7 +45,7 @@ Faktoriser uttrykket $$x^2 + 6x + 9$$:
 
   f) $$3x^2 - 27$$
 
-3. Finn fellesfaktor og faktoriser videre der det er mulig:
+3. Faktoriser der det er mulig:
   
   a) $$x(x + 3) + 2(x + 3)$$
 
