@@ -246,11 +246,11 @@ Omform $$x^2 + 8x + 12$$ til fullstendig kvadrat:
 
 20. Gjør ferdig til fullstendig kvadrat ved å fylle inn det som mangler:
   
-   a) $$x^2 + 6x + _$$
+   a) $$x^2 + 6x + ?$$
 
-   b) $$x^2 - 4x + _$$
+   b) $$x^2 - 4x + ?$$
 
-   c) $$x^2 + 2x + _$$
+   c) $$x^2 + 2x + ?$$
 
 21. Bestem største eller minste verdi av uttrykket $$-x^2 + 8x - 12$$ ved å omforme til fullstendig kvadrat.
 
