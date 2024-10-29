@@ -3,16 +3,16 @@
 **Varighet:** 135 minutter  
 **Hjelpemidler:** 
 - Kalkulator
-- Digitale verktøy (regneark, geogebra, programmeringsverktøy)
+- Digitale verktøy (regneark, GeoGebra, programmeringsverktøy)
 - Skrivesaker
 
-**Total poengsum:** 
+**Total poengsum:** 42 poeng
 
 ---
 
-## Oppgave 1: Prosentvis endring og vekstfaktor (20 minutter, 10 poeng)
+## Oppgave 1: Prosentvis endring og vekstfaktor
 
-### 1.1 Endring i salg og omsetning (6 poeng)
+### 1.1 Endring i salg og omsetning
 En sjokoladeprodusent lanserer en ny sjokoladeplate. I første driftsår selger de 50 000 plater. De forventer en årlig økning i salget på 20 % de neste tre årene.
 
 **a)** Beregn forventet antall solgte sjokoladeplater etter tre år. (2 poeng)
@@ -23,8 +23,8 @@ En bedrift har opplevd en årlig nedgang i omsetningen på 5 % over fire år på
 
 **c)** Beregn hva bedriftens omsetning var for tre år siden, gitt samme årlige nedgang på 5 %. (2 poeng)
 
-### 1.2 Sammensatte endringer (4 poeng)
-I en skog står det 10 000 trær. Våren, hvert  år, plantes det slik at antall trær øker med 8 %. Hogst om høsten reduserer antall trær med 2 % per år.
+### 1.2 Sammensatte endringer
+I en skog står det 10 000 trær. Om våren hvert år plantes det slik at antall trær øker med 8 %. Hogst om høsten reduserer antall trær med 2 % per år.
 
 **a)** Beregn den samlede årlige prosentvise endringen i antall trær.
 
@@ -32,10 +32,10 @@ I en skog står det 10 000 trær. Våren, hvert  år, plantes det slik at antall
 
 ---
 
-## Oppgave 2: Brutto- og nettoinntekt (25 minutter, 12 poeng)
+## Oppgave 2: Brutto- og nettoinntekt
 
-### 2.1 Sammenligning av lønn (8 poeng)
-Sofie og Markus er nyutdannede ingeniører i samme firma. Her er deres lønnsvilkår:
+### 2.1 Sammenligning av lønn
+Her er Sofies lønnsvilkår:
 
 **Sofie:**
 - Årslønn: 540 000 kroner
@@ -47,19 +47,18 @@ Sofie og Markus er nyutdannede ingeniører i samme firma. Her er deres lønnsvil
 
 **b)** Beregn Sofies feriepenger når feriepengesatsen er 10,2 % av årslønnen.
 
-### 2.2 Lønnsendring og skatt (4 poeng)
+### 2.2 Lønnsendring og skatt
 En arbeidstaker har følgende endringer i sin økonomi:
-- Bruttolønn øker fra 450 000 kroner til ny lønn med 4 % økning
+- Bruttolønn øker fra 450 000 kroner med 4 %
 - Skattesats øker fra 30 % til 31 %
 
 Beregn endringen i årlig nettoinntekt etter disse endringene. (2 poeng)
 
-
 ---
 
-## Oppgave 3: Lån og renter (30 minutter, 6 poeng)
+## Oppgave 3: Lån og renter
 
-### 3.1 Annuitetslån (4 poeng)
+### 3.1 Annuitetslån
 Thomas tar opp et annuitetslån med følgende betingelser:
 - Lånebeløp: 120 000 kroner
 - Nedbetalingstid: 5 år
@@ -82,7 +81,7 @@ Beregn rentekostnadene etter 6 måneder.
 
 ---
 
-## Oppgave 4: Familieøkonomi og budsjett (25 minutter, 8 poeng)
+## Oppgave 4: Familieøkonomi og budsjett
 
 En familie med to voksne og to barn har følgende månedlige utgifter:
 
@@ -111,7 +110,7 @@ Beregn hvor mye ekstra familien kan spare per måned etter disse reduksjonene. (
 
 ---
 
-## Oppgave 5: Sparing og investering (30 minutter, 6 poeng)
+## Oppgave 5: Sparing og investering
 
 ### 5.1 Sammenligning av spareplaner
 En investor vurderer to spareplaner over 10 år:
