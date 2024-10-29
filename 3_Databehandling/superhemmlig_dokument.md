@@ -34,7 +34,7 @@ I en skog står det 10 000 trær. Om våren hvert år plantes det slik at antall
 
 ## Oppgave 2: Brutto- og nettoinntekt
 
-### 2.1 Sammenligning av lønn
+### 2.1 Lønn
 Her er Sofies lønnsvilkår:
 
 **Sofie:**

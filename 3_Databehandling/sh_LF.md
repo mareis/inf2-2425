@@ -90,7 +90,7 @@ Svar: Etter 5 år vil det være 13 277 trær i skogen.
 
 ## Oppgave 2: Brutto- og nettoinntekt
 
-### 2.1 Sammenligning av lønn
+### 2.1 Lønn
 
 **a) Sofies månedlige nettoinntekt**
 
