@@ -24,11 +24,11 @@ En bedrift har opplevd en årlig nedgang i omsetningen på 5 % over fire år på
 **c)** Beregn hva bedriftens omsetning var for tre år siden, gitt samme årlige nedgang på 5 %. (2 poeng)
 
 ### 1.2 Sammensatte endringer (4 poeng)
-I en skog står det 10 000 trær. Årlig planting øker antall trær med 8 %, mens hogst reduserer antallet med 2 % per år.
+I en skog står det 10 000 trær. Våren, hvert  år, plantes det slik at antall trær øker med 8 %. Hogst om høsten reduserer antall trær med 2 % per år.
 
-**a)** Beregn den samlede årlige prosentvise endringen i antall trær. (2 poeng)
+**a)** Beregn den samlede årlige prosentvise endringen i antall trær.
 
-**b)** Beregn hvor mange trær det vil være i skogen etter 5 år. (2 poeng)
+**b)** Beregn hvor mange trær det vil være i skogen etter 5 år.
 
 ---
 
@@ -43,26 +43,17 @@ Sofie og Markus er nyutdannede ingeniører i samme firma. Her er deres lønnsvil
 - Pensjonstrekk: 2 %
 - Fagforeningskontingent: 500 kr
 
-**Markus:**
-- Årslønn: 480 000 kroner
-- Skatt: 32 %
-- Pensjonstrekk: 2 %
-- Ingen fagforeningskontingent
+**a)** Beregn månedlig nettoinntekt for Sofie.
 
-**a)** Beregn månedlig nettoinntekt for både Sofie og Markus etter alle trekk. Vis utregningen. (4 poeng)
-
-**b)** Beregn differansen i månedlig nettoinntekt mellom Sofie og Markus. (2 poeng)
-
-**c)** Beregn Sofies feriepenger når feriepengesatsen er 10,2 % av årslønnen. (2 poeng)
+**b)** Beregn Sofies feriepenger når feriepengesatsen er 10,2 % av årslønnen.
 
 ### 2.2 Lønnsendring og skatt (4 poeng)
 En arbeidstaker har følgende endringer i sin økonomi:
 - Bruttolønn øker fra 450 000 kroner til ny lønn med 4 % økning
 - Skattesats øker fra 30 % til 31 %
 
-**a)** Beregn endringen i årlig nettoinntekt etter disse endringene. (2 poeng)
+Beregn endringen i årlig nettoinntekt etter disse endringene. (2 poeng)
 
-**b)** Forklar hvordan endringene i lønn og skatt påvirker den endelige nettoinntekten. (2 poeng)
 
 ---
 
@@ -75,17 +66,19 @@ Thomas tar opp et annuitetslån med følgende betingelser:
 - Månedlig terminbeløp: 2 387 kroner
 - Månedlig nominell rente: 0,599 %
 
-**a)** Beregn restgjelden etter 12 måneder. (2 poeng)
+**a)** Forklar hvorfor dette er et annuitetslån.
 
-**b)** Beregn de totale rentekostnadene over hele låneperioden. (2 poeng)
+**b)** Beregn restgjelden etter 12 måneder.
 
-### 3.2 Kredittkortgjeld (2 poeng)
+**c)** Beregn de totale rentekostnadene over hele låneperioden.
+
+### 3.2 Kredittkortgjeld
 Maria har en kredittkortgjeld på 15 000 kroner med følgende betingelser:
 - Årlig nominell rente: 20 %
 - Perioden er 6 måneder
 - Ingen nye kjøp eller innbetalinger i perioden
 
-Beregn rentekostnadene etter 6 måneder.
+Beregn rentekostnadene etter 6 måneder. 
 
 ---
 
@@ -103,16 +96,13 @@ En familie med to voksne og to barn har følgende månedlige utgifter:
 - Andre utgifter: 2 200 kr
 
 **Inntekt og sparing:**
-- Samlet månedlig bruttolønn: 80 000 kr
-- Skattetrekk: 30 %
+- Samlet månedlig nettolønn: 80 000 kr
 - Fast månedlig sparing til bolig: 5 000 kr
 
 ### 4.1 Budsjettanalyse
-**a)** Beregn familiens totale månedlige utgifter. (3 poeng)
+**a)** Sett opp et budsjett for familien.
 
-**b)** Beregn familiens månedlige nettoinntekt etter skatt. (3 poeng)
-
-**c)** Familien vurderer å redusere følgende poster med 10 %:
+**b)** Familien vurderer å redusere følgende poster med 10 %:
 - Mat og dagligvarer
 - Klær og sko
 - Andre utgifter
@@ -138,7 +128,7 @@ En investor vurderer to spareplaner over 10 år:
 
 **a)** Beregn sluttverdien for begge spareplaner etter 10 år. (4 poeng)
 
-**b)** Analyser hvilken spareplan som gir høyest renteinntekter, og begrunn svaret. (2 poeng)
+**b)** Analyser hvilken spareplan som gir høyest **renteinntekter**, og begrunn svaret. (2 poeng)
 
 ---
 
