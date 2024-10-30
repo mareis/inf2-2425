@@ -59,115 +59,221 @@ antall = tell_monstre("Det var en heks og to spøkelser i huset")
 print(f"Det er {antall} monstre i historien! 👻")
 ```
 
-## Del 4: Kombinere funksjoner 🧟‍♂️
-Nå skal vi lage programmer som bruker flere funksjoner sammen.
+## Del 4: Kombinere funksjoner 
 
-### Oppgave 4.1: Monster-temperatur
+### Oppgave 4.1: Temperaturkonvertering
 Lag to funksjoner:
-- `menneske_til_monster_temp(menneske_temp)` som konverterer vanlig temperatur til monster-temperatur (gang med 0.666)
-- `monster_til_menneske_temp(monster_temp)` som konverterer tilbake
+- `celsius_til_fahrenheit(celsius)` som konverterer fra celsius til fahrenheit
+- `fahrenheit_til_celsius(fahrenheit)` som konverterer fra fahrenheit til celsius
 
-Lag deretter et program som konverterer frem og tilbake for å sjekke om regningen stemmer!
+Krav:
+1. Bruk formlene: 
+   - °F = (°C × 9/5) + 32
+   - °C = (°F - 32) × 5/9
+2. Funksjonene skal returnere verdier med én desimal
+3. Lag et testprogram som:
+   - Konverterer 20°C til fahrenheit
+   - Tar svaret og konverterer det tilbake til celsius
+   - Skriver ut alle mellomresultater
 
-### Oppgave 4.2: Heksebrygg-kalkulator
-Lag følgende funksjoner:
-- `bland(ingrediens1, ingrediens2)` - blander to ingredienser
-- `kok(ingrediens)` - koker en ingrediens
-- `knus(ingrediens)` - knuser en ingrediens
-- `lagBrygg(oppskrift)` - følger en heksebrygg-oppskrift
+### Oppgave 4.2: Kalkulator med funksjoner
+Lag en kalkulator med følgende struktur:
 
+1. Matematiske funksjoner:
 ```python
-# Eksempel på bruk:
-resultat = lagBrygg(["øgleøyne", "flaggermusvinger"])
-print(f"Din brygg er: {resultat} 🧪")
+def add(a, b):
+    """Returnerer summen av a og b"""
+    return a + b
+
+def subtract(a, b):
+    """Returnerer differansen mellom a og b"""
+    pass  # Din kode her
+
+def multiply(a, b):
+    """Returnerer produktet av a og b"""
+    pass  # Din kode her
+
+def divide(a, b):
+    """
+    Returnerer kvotienten av a og b
+    Raises: ValueError hvis b er 0
+    """
+    pass  # Din kode her
 ```
 
-### Oppgave 4.3: Monstervalidering
-Lag et system som sjekker om et monster er skummelt nok. Del opp i følgende funksjoner:
-- `har_skarpe_tenner(monster)` - sjekker om monsteret har skarpe tenner
-- `kan_fly(monster)` - sjekker om monsteret kan fly
-- `er_nattaktiv(monster)` - sjekker om monsteret er aktivt om natten
-- `har_magiske_krefter(monster)` - sjekker om monsteret har magiske krefter
-- `er_stort_nok(monster)` - sjekker om monsteret er minst 2 meter høyt
-
-Lag til slutt en hovedfunksjon `valider_monster(monster)` som bruker alle disse funksjonene.
-
-### Oppgave 4.4: Spøkelseshistorie-generator
-Lag et system for å generere spøkelseshistorier med følgende funksjoner:
-- `velg_setting()` - velger tilfeldig sted (hjemsøkt hus, kirkegård, etc.)
-- `velg_monster()` - velger tilfeldig monster
-- `velg_hendelse()` - velger tilfeldig skummel hendelse
-- `lag_historie(lengde)` - genererer en historie av ønsket lengde
-
+2. Hjelpefunksjoner:
 ```python
-# Eksempel på bruk:
-historie = lag_historie(3)  # Genererer historie med 3 hendelser
-print(f"🦇 Din spøkelseshistorie: {historie}")
+def get_numbers():
+    """
+    Ber brukeren om to tall
+    Returns: tuple med to float-verdier
+    """
+    pass  # Din kode her
+
+def get_operation():
+    """
+    Ber brukeren velge operasjon (+, -, *, /)
+    Returns: string med valgt operator
+    """
+    pass  # Din kode her
+
+def calculate(a, b, operation):
+    """
+    Utfører beregningen basert på tall og operator
+    Returns: Resultat av beregningen
+    Raises: ValueError ved ugyldig operator
+    """
+    pass  # Din kode her
 ```
 
-### Oppgave 4.5: Godteributikk-system
-Lag et Halloween-butikksystem med følgende funksjoner:
-- `opprett_godteri(navn, pris, skremmefaktor)` - oppretter et godteri
-- `beregn_pris(godteri, antall)` - beregner totalprisen
-- `beregn_sukkerinnhold(godteri)` - beregner sukkermengden
-- `formater_kvittering(handlekurv)` - lager en spooky kvittering
-
+3. Hovedprogram:
 ```python
-# Eksempel på bruk:
-handlekurv = [
-    {"godteri": opprett_godteri("Øyeeple-gelé", 15.50, 8), "antall": 3},
-    {"godteri": opprett_godteri("Vampyrtannpinner", 25.90, 9), "antall": 2}
-]
-print(lag_ordre(handlekurv)) # 🍬
+def main():
+    """
+    Hovedløkke som:
+    1. Ber om tall og operator
+    2. Utfører beregning
+    3. Viser resultat
+    4. Spør om brukeren vil fortsette
+    """
+    pass  # Din kode her
 ```
 
-### Oppgave 4.6: Monster-kampssystem
-Lag et enkelt kampsystem med følgende funksjoner:
-- `opprett_monster(navn, type)` - oppretter et monster med spesielle egenskaper
-- `angrip(monster1, monster2)` - håndterer et angrep mellom to monstre
-- `bruk_spesialevne(monster)` - aktiverer monsteres spesialevne
-- `er_beseiret(monster)` - sjekker om et monster er beseiret
-- `vis_monster_status(monster)` - viser monsteres nåværende tilstand
+Krav:
+- Alle funksjoner skal ha dokumentasjon (docstrings)
+- Programmet skal håndtere feil input på en pen måte
+- Brukeren skal kunne gjøre flere beregninger uten å starte programmet på nytt
 
+### Oppgave 4.3: Databehandling med funksjoner
+Lag et program som behandler karakterstatistikk med følgende funksjoner:
+
+1. Innlesing og validering:
 ```python
-# Eksempel på bruk:
-vampyr = opprett_monster("Dracula", "vampyr")
-varulv = opprett_monster("Fenris", "varulv")
-kjør_monsterkamp(vampyr, varulv) # 🧛‍♂️ vs 🐺
+def les_karakterer():
+    """Leser inn karakterer (1-6) til listen er tom"""
+    
+def valider_karakter(karakter):
+    """Sjekker om karakteren er gyldig (1-6)"""
 ```
 
-## Ekspertoppgaver 🏆
-Disse oppgavene er for deg som virkelig vil utfordre deg selv!
+2. Statistikkfunksjoner:
+```python
+def beregn_snitt(karakterer):
+    """Returnerer gjennomsnittet av karakterene"""
+    
+def finn_beste(karakterer):
+    """Returnerer høyeste karakter"""
+    
+def finn_dårligste(karakterer):
+    """Returnerer laveste karakter"""
+    
+def beregn_median(karakterer):
+    """Returnerer medianen av karakterene"""
+```
 
-### Ekspertoppgave 1: Forbannelseskalkulator 🧙‍♀️
-Lag et program som kan beregne styrken og varigheten av magiske forbannelser ved hjelp av rekursjon og minnelagring.
+3. Rapporteringsfunksjoner:
+```python
+def lag_karakterfordeling(karakterer):
+    """Returnerer ordbok med antall av hver karakter"""
+    
+def vis_statistikk(karakterer):
+    """Skriver ut all statistikk på pen måte"""
+```
 
-1. Lag følgende funksjoner:
-- `beregn_forbannelse_styrke(ingredienser, måne_fase)` 
-- `kombinerer_forbannelser(forbannelse1, forbannelse2)`
-- `finn_motgift(forbannelse)`
-- `simuler_forbannelse_over_tid(forbannelse, dager)`
+Krav:
+- Alle funksjoner skal håndtere tomme lister
+- Statistikk skal rundes til én desimal
+- Programmet skal kunne behandle både små og store datasett
+- Inkluder minst 3 forskjellige test-datasett
 
-2. Programmet skal:
-- Håndtere kombinasjoner av ulike ingredienser
-- Beregne hvordan månefaser påvirker styrken
-- Finne optimale motgifter
-- Visualisere forbannelsens styrke over tid
+### Oppgave 4.4: Tekstanalyse
+Lag følgende funksjoner for tekstanalyse:
 
-### Ekspertoppgave 2: Avansert Spøkelsesdeteksjon 👻
-Lag et program som kan analysere "spøkelsesaktivitet" i forskellige bygninger.
+```python
+def fjern_tegnsetting(tekst):
+    """Fjerner all tegnsetting fra teksten"""
+    
+def tell_ord(tekst):
+    """Teller antall ord i teksten"""
+    
+def finn_lengste_ord(tekst):
+    """Finner det lengste ordet"""
+    
+def lag_ordfrekvens(tekst):
+    """Lager ordbok med ord og deres frekvens"""
+```
 
-1. Lag følgende hovedfunksjoner:
-- `analyser_aktivitet(målinger)` - analyserer EMF-målinger og temperaturfall
-- `identifiser_spøkelsestype(mønstre)` - kategoriserer type spøkelse
-- `beregn_hjemsøkelsesnivå(data)` - estimerer hvor hjemsøkt et sted er
-- `generer_aktivitetsrapport(sted, tid, målinger)` - lager detaljert rapport
+Krav:
+1. Funksjonene skal være case-insensitive
+2. Håndter både norske og engelske tekster
+3. Test med minst tre forskjellige tekster:
+   - En kort tekst (under 50 ord)
+   - En middels tekst (100-200 ord)
+   - En lang tekst (over 500 ord)
 
-2. Implementer avansert dataanalyse for:
-- Mønstergjenkjenning i spøkelsesaktivitet
-- Korrelasjon mellom ulike typer aktivitet
-- Prediksjon av fremtidig aktivitet
-- Visualisering av "hot spots" i bygninger
+### Oppgave 4.5: Tallsekvenser
+Lag et program som genererer og analyserer tallsekvenser:
+
+```python
+def generer_fibonacci(n):
+    """Genererer de første n fibonacci-tallene"""
+    
+def generer_primtall(n):
+    """Genererer de første n primtallene"""
+    
+def er_perfekt_tall(tall):
+    """Sjekker om et tall er et perfekt tall"""
+    
+def finn_faktorer(tall):
+    """Finner alle faktorer i et tall"""
+```
+
+Krav:
+1. Alle funksjoner skal være effektive for tall opp til 10000
+2. Inkluder dokumentasjon med kjøretidsanalyse
+3. Lag tester som verifiserer at funksjonene er korrekte
+
+## Ekspertoppgaver
+
+### Ekspertoppgave 1: Effektiv primtallsfaktorisering
+Lag et program som finner primtallsfaktoriseringen av store tall (opptil 1 million).
+
+Krav:
+1. Implementer minst to forskjellige algoritmer:
+   - Enkel trial division
+   - En mer effektiv metode (f.eks. Pollards rho)
+2. Sammenlign og dokumenter kjøretiden
+3. Håndter edge cases (primtall, kvadrattall, etc.)
+4. Vis faktorene på standard form (f.eks. 2⁴ × 3² × 5)
+
+### Ekspertoppgave 2: Datakompresjonsalgoritme
+Implementer en enkel datakompresjonsalgoritme (f.eks. run-length encoding) med følgende krav:
+
+1. Kompresjonfunksjoner:
+```python
+def komprimer(data):
+    """Komprimerer input-data"""
+    
+def dekomprimer(komprimert_data):
+    """Dekomprimerer data tilbake til original"""
+    
+def beregn_kompressjonsrate(original, komprimert):
+    """Beregner hvor mye plass som ble spart"""
+```
+
+2. Krav:
+   - Må fungere for både tekst og tallserier
+   - Må håndtere alle ASCII-tegn
+   - Komprimert data må være mindre enn original for repeterende mønstre
+   - Må kunne rekonstruere originalen perfekt
+   - Inkluder grundig testing med ulike typer input
+
+3. Bonuspoeng:
+   - Implementer flere kompresjonsalgoritmer
+   - Lag system for å velge beste algoritme basert på input
+   - Visualiser kompresjon/dekompresjon-prosessen
+
+
 
 ## Bonustips for alle oppgavene 🎃
 - Husk å legge til dokumentasjon (docstrings) i funksjonene dine
