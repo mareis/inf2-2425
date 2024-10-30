@@ -233,6 +233,225 @@ Krav:
 2. Inkluder dokumentasjon med kjøretidsanalyse
 3. Lag tester som verifiserer at funksjonene er korrekte
 
+# Oppgave 4.6: Spill-kampssystem
+
+## Introduksjon
+Du skal lage et enkelt tekstbasert kampspill der spillere kan kjempe mot hverandre. Spillet skal ha et meny-system der brukeren kan opprette spillere og la dem kjempe mot hverandre.
+
+## Systemstruktur
+```
+spillsystem/
+    ├── spillertyper.py   (inneholder spillerdata)
+    └── hovedprogram.py   (inneholder alle funksjoner og hovedmenyen)
+```
+
+### Flytdiagram over systemet
+Start Spill
+    │
+    ▼
+┌─────────────┐
+│  Hovedmeny  │
+└──────┬──────┘
+       │
+       ├───────────┬────────────┬───────────┐
+       │           │            │           │
+       ▼           ▼            ▼           ▼
+   Valg 1      Valg 2       Valg 3     Valg 4
+Opprett      Start Kamp    Vis         Avslutt
+Spiller                    Spillere
+   │              │            │
+   ▼              ▼            │
+Velg Type    Velg Spiller 1    │
+   │              │            │
+   ▼              ▼            │
+Sett Navn    Velg Spiller 2    │
+   │              │            │
+   │              ▼            │
+   │         Kjør Kamp         │
+   │              │            │
+   │              ▼            │
+   │        Vis Resultat       │
+   │              │            │
+   └──────────────┴────────────┘
+                 │
+                 ▼
+          Tilbake til Meny
+
+## Grunnleggende Strukturer
+
+### spillertyper.py
+```python
+# Dette er grunnegenskapene for hver spillertype
+SPILLERTYPER = {
+    'kriger':     {'hp': 100, 'styrke': 15, 'forsvar': 10, 'hastighet': 8},
+    'magiker':    {'hp': 80,  'styrke': 20, 'forsvar': 5,  'hastighet': 10},
+    'bueskytter': {'hp': 90,  'styrke': 12, 'forsvar': 7,  'hastighet': 15}
+}
+```
+
+### hovedprogram.py
+Du må implementere følgende hovedfunksjoner:
+
+```python
+def opprett_spiller(navn, type):
+    """
+    Oppretter en ny spiller
+    navn: spillerens navn (str)
+    type: type spiller - 'kriger', 'magiker' eller 'bueskytter' (str)
+    returnerer: spiller som ordbok med alle egenskaper
+    """
+    # Din kode her
+
+def utfør_angrep(angriper, forsvarer):
+    """
+    Håndterer ett angrep mellom to spillere
+    angriper: spiller som angriper (ordbok)
+    forsvarer: spiller som forsvarer seg (ordbok)
+    returnerer: tekst som beskriver hva som skjedde
+    """
+    # Din kode her
+
+def kjør_kamp(spiller1, spiller2):
+    """
+    Gjennomfører en hel kamp mellom to spillere
+    spiller1, spiller2: spillerne som skal kjempe (ordbøker)
+    returnerer: tekst som beskriver hele kampen
+    """
+    # Din kode her
+
+def vis_spillerstatus(spiller):
+    """
+    Viser status for en spiller
+    spiller: spilleren som skal vises (ordbok)
+    returnerer: tekst med spillerens status
+    """
+    # Din kode her
+
+def vis_hovedmeny():
+    """
+    Viser hovedmenyen og håndterer brukervalg
+    """
+    # Din kode her
+```
+
+## Eksempler på Brukergrensesnitt
+
+### Hovedmeny
+```
+===== KAMPSPILL =====
+1. Opprett ny spiller
+2. Start kamp
+3. Vis alle spillere
+4. Avslutt
+Valg > _
+```
+
+### Opprette Spiller
+```
+-- OPPRETT SPILLER --
+Velg type:
+1. Kriger
+2. Magiker
+3. Bueskytter
+Valg > 1
+
+Navn på spiller: Erik
+Spiller opprettet!
+```
+
+### Kampforløp
+```
+=== KAMP START ===
+Sigurd (Kriger) VS Gandalf (Magiker)
+
+-- Runde 1 --
+Gandalf angriper først! (høyere hastighet)
+Gandalf angriper Sigurd for 15 skade!
+Sigurd har 85 HP igjen.
+Sigurd angriper Gandalf for 12 skade!
+Gandalf har 68 HP igjen.
+
+-- Status --
+Sigurd: HP 85/100 [=================== ]
+Gandalf: HP 68/80 [===============     ]
+
+-- Runde 2 --
+[...]
+
+=== KAMP SLUTT ===
+Gandalf vant kampen!
+```
+
+## Krav til Implementasjon
+1. Spillersystem:
+   - Minst 3 forskjellige spillertyper
+   - Hver type skal ha unike egenskaper
+   - Spillere må lagres så de kan brukes i flere kamper
+
+2. Kampsystem:
+   - Tydelig visning av hva som skjer hver runde
+   - Bruk hastighet til å bestemme hvem som angriper først
+   - Vis status etter hver runde
+   - Avslutt når en spiller er beseiret (HP = 0)
+
+3. Brukergrensesnitt:
+   - Tydelig meny med valg
+   - Enkel navigering
+   - Feilhåndtering av brukerinput
+   - Pen formatering av output
+
+## Testing av Spillet
+```python
+def test_spillersystem():
+    """Funksjon for å teste at spillet fungerer som det skal"""
+    print("\nStarter testing av spillsystemet...")
+    
+    # Test 1: Opprette spillere
+    print("\nTest 1: Oppretter spillere")
+    kriger = opprett_spiller("Sigurd", "kriger")
+    magiker = opprett_spiller("Gandalf", "magiker")
+    
+    # Sjekk verdier
+    if kriger['hp'] != 100:
+        print(f"Feil: Krigeren har {kriger['hp']} HP, skulle hatt 100")
+    else:
+        print("OK: Kriger har riktig HP")
+        
+    if magiker['styrke'] != 20:
+        print(f"Feil: Magikeren har {magiker['styrke']} styrke, skulle hatt 20")
+    else:
+        print("OK: Magiker har riktig styrke")
+    
+    # Test 2: Kjøre kamp
+    print("\nTest 2: Kjører en kamp")
+    kamp_resultat = kjør_kamp(kriger, magiker)
+    if len(kamp_resultat) > 0:
+        print("OK: Kampen ga et resultat")
+    else:
+        print("Feil: Kampen ga ikke resultat")
+```
+
+## Utvidelsesmuligheter
+Når grunnspillet fungerer, kan du legge til:
+1. Spesialangrep for hver spillertype
+2. System for å lagre kamphistorikk
+3. Rangering av spillere
+4. Mulighet for å forbedre spillere over tid
+
+## Tips til Utvikling
+1. Start med å få hovedmenyen til å fungere
+2. Implementer én funksjon om gangen
+3. Test hver funksjon grundig før du går videre
+4. Bruk print() for å sjekke verdier underveis
+5. Lagre spiller-data i en liste eller ordbok
+
+## Vurderingskriterier
+- Grunnleggende funksjonalitet fungerer
+- Koden er ryddig og godt dokumentert
+- Brukergrensesnittet er brukervennlig
+- Spillet håndterer feil på en god måte
+- Kampsystemet er balansert og interessant
+
 ## Ekspertoppgaver
 
 ### Ekspertoppgave 1: Effektiv primtallsfaktorisering
