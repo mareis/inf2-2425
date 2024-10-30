@@ -246,6 +246,7 @@ spillsystem/
 ```
 
 ### Flytdiagram over systemet
+```
 Start Spill
     │
     ▼
@@ -276,6 +277,7 @@ Sett Navn    Velg Spiller 2    │
                  │
                  ▼
           Tilbake til Meny
+```
 
 ## Grunnleggende Strukturer
 
