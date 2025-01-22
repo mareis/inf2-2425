@@ -1,0 +1,717 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d69e2557-2605-4680-92d8-dc83f7907ce5" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/1_Grunnlegende_programering/streamlit.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Objektorientert_programering/3pR.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Objektorientert_programering/livets_spill.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Objektorientert_programering/mvgsBank.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Objektorientert_programering/oop.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/2_Objektorientert_programering/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_Databehandling/Oppgave9/Datasett_fodselstall_komma.csv" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_Databehandling/Oppgave9/eksempel.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_Databehandling/Oppgave9/oversikt.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_Databehandling/sh_prompt.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/3_Databehandling/Øvingsplan.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Funksjoner.tex" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Muntlig/elev.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oppgaver/Prøver/funksjoner.ipynb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Oppgaver/luce.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/S2/prøve2-LF.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/S2/prøve2.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tkinter/intro.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tkinter/nedtrekk.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tkinter/test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Tkinter/titanic.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integrasjon_arbeidsark_final.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/integrasjon_arbeidsark_full.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Objektorientert_programering/Arv og Polymorfisme.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/2_Objektorientert_programering/Arv og Polymorfisme.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Objektorientert_programering/arbeidsark-arv.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Objektorientert_programering/drikkeflaske.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/2_Objektorientert_programering/drikkeflaske.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/2_Objektorientert_programering/eventyrspill.md" beforeDir="false" afterPath="$PROJECT_DIR$/2_Objektorientert_programering/eventyrspill.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/3_Databehandling/1T/LF_1T.md" beforeDir="false" afterPath="$PROJECT_DIR$/2_Objektorientert_programering/LF_1T.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Oppgaver/Oblig1.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Oppgaver/Oblig1.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integrasjon_arbeidsark.md" beforeDir="false" afterPath="$PROJECT_DIR$/integrasjon_arbeidsark.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/integrasjon_arbeidsark_complete.md" beforeDir="false" afterPath="$PROJECT_DIR$/integrasjon_arbeidsark_complete.md" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Jupyter Notebook" />
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;mareis&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/mareis/inf2-2425.git&quot;,
+    &quot;accountId&quot;: &quot;9e894f66-2375-42df-8bc1-9db4a72f4b71&quot;
+  }
+}</component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2kggAc1nDL2abyPMQa2nbcPhDtr" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.eksempel.executor&quot;: &quot;Run&quot;,
+    &quot;Python.fargevelger.executor&quot;: &quot;Run&quot;,
+    &quot;Python.hei_verden.executor&quot;: &quot;Run&quot;,
+    &quot;Python.intro.executor&quot;: &quot;Run&quot;,
+    &quot;Python.livets_spill.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;Python.mvgsBank.executor&quot;: &quot;Run&quot;,
+    &quot;Python.nedtrekk.executor&quot;: &quot;Run&quot;,
+    &quot;Python.ordbok_sort.executor&quot;: &quot;Run&quot;,
+    &quot;Python.oversikt.executor&quot;: &quot;Run&quot;,
+    &quot;Python.test (1).executor&quot;: &quot;Run&quot;,
+    &quot;Python.test.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tester.executor&quot;: &quot;Run&quot;,
+    &quot;Python.titanic.executor&quot;: &quot;Run&quot;,
+    &quot;Python.titanic2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.unknown.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;full.screen.before.presentation.mode&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/mareis/OneDrive - Møre og Romsdal Fylkeskommune/00_MoldeVGS/IT-2&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;Settings.Markdown&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\mareis\OneDrive - Møre og Romsdal Fylkeskommune\00_MoldeVGS\IT-2\inf2-2425\1T" />
+      <recent name="$PROJECT_DIR$/Oppgaver" />
+      <recent name="C:\Users\mareis\OneDrive - Møre og Romsdal Fylkeskommune\00_MoldeVGS\IT-2\inf2-2425\Oppgaver\Prøver" />
+      <recent name="C:\Users\mareis\OneDrive - Møre og Romsdal Fylkeskommune\00_MoldeVGS\IT-2\inf2-2425\Oppgaver\02_Databehandling" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/2_Objektorientert_programering" />
+      <recent name="C:\Users\mareis\OneDrive - Møre og Romsdal Fylkeskommune\00_MoldeVGS\IT-2\inf2-2425\3_Databehandling\Oppgave9" />
+      <recent name="C:\Users\mareis\OneDrive - Møre og Romsdal Fylkeskommune\00_MoldeVGS\IT-2\inf2-2425\3_Databehandling" />
+      <recent name="C:\Users\mareis\OneDrive - Møre og Romsdal Fylkeskommune\00_MoldeVGS\IT-2\inf2-2425\2_Objektorientert_programering" />
+      <recent name="C:\Users\mareis\OneDrive - Møre og Romsdal Fylkeskommune\00_MoldeVGS\IT-2\inf2-2425" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.tester">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="inf2-2425" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="nedtrekk" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="inf2-2425" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tkinter" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tkinter/nedtrekk.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="inf2-2425" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tkinter" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tkinter/test.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="tester" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="inf2-2425" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/2_Objektorientert_programering" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/2_Objektorientert_programering/tester.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="titanic" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="inf2-2425" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tkinter" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tkinter/titanic.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="titanic2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="inf2-2425" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Tkinter" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Tkinter/titanic2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.tester" />
+        <item itemvalue="Python.titanic2" />
+        <item itemvalue="Python.titanic" />
+        <item itemvalue="Python.nedtrekk" />
+        <item itemvalue="Python.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-7a29c1521ef0-c986f194a52a-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-233.11799.298" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d69e2557-2605-4680-92d8-dc83f7907ce5" name="Changes" comment="" />
+      <created>1723710490573</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1723710490573</updated>
+      <workItem from="1723710491723" duration="255000" />
+      <workItem from="1723710763584" duration="338000" />
+      <workItem from="1723711565230" duration="623000" />
+      <workItem from="1723712217036" duration="536000" />
+      <workItem from="1723792474475" duration="100000" />
+      <workItem from="1724142461089" duration="693000" />
+      <workItem from="1724222030015" duration="4523000" />
+      <workItem from="1724401699385" duration="29769000" />
+      <workItem from="1725615449540" duration="3899000" />
+      <workItem from="1726036259015" duration="2978000" />
+      <workItem from="1726476250587" duration="4051000" />
+      <workItem from="1726484668985" duration="28755000" />
+      <workItem from="1727430067249" duration="10570000" />
+      <workItem from="1727850531852" duration="3915000" />
+      <workItem from="1727945336221" duration="1689000" />
+      <workItem from="1728990293574" duration="2889000" />
+      <workItem from="1729022023753" duration="11826000" />
+      <workItem from="1729499618904" duration="8812000" />
+      <workItem from="1729586267034" duration="602000" />
+      <workItem from="1729602602369" duration="965000" />
+      <workItem from="1729663997304" duration="4288000" />
+      <workItem from="1729799577299" duration="1894000" />
+      <workItem from="1729836369582" duration="5320000" />
+      <workItem from="1729946070341" duration="12232000" />
+      <workItem from="1730715192812" duration="13638000" />
+      <workItem from="1731313028729" duration="722000" />
+      <workItem from="1731313769383" duration="875000" />
+      <workItem from="1731405593716" duration="611000" />
+      <workItem from="1731448655630" duration="1481000" />
+      <workItem from="1731503829698" duration="5082000" />
+      <workItem from="1731614852256" duration="1657000" />
+      <workItem from="1731932237777" duration="14278000" />
+      <workItem from="1732274908167" duration="2381000" />
+      <workItem from="1732529537885" duration="9530000" />
+      <workItem from="1733227523006" duration="1705000" />
+      <workItem from="1733393072954" duration="613000" />
+      <workItem from="1733397784239" duration="2865000" />
+      <workItem from="1733474716797" duration="29000" />
+      <workItem from="1733482461007" duration="734000" />
+      <workItem from="1733515870674" duration="9000" />
+      <workItem from="1733519651914" duration="2745000" />
+    </task>
+    <task id="LOCAL−00025" summary=".">
+      <option name="closed" value="true" />
+      <created>1729953496674</created>
+      <option name="number" value="LOCAL−00025" />
+      <option name="presentableId" value="LOCAL−00025" />
+      <updated>1729953496674</updated>
+    </task>
+    <task id="LOCAL−00026" summary=".">
+      <option name="closed" value="true" />
+      <created>1729953923339</created>
+      <option name="number" value="LOCAL−00026" />
+      <option name="presentableId" value="LOCAL−00026" />
+      <updated>1729953923339</updated>
+    </task>
+    <task id="LOCAL−00027" summary=".">
+      <option name="closed" value="true" />
+      <created>1730034033423</created>
+      <option name="number" value="LOCAL−00027" />
+      <option name="presentableId" value="LOCAL−00027" />
+      <updated>1730034033423</updated>
+    </task>
+    <task id="LOCAL−00028" summary=".">
+      <option name="closed" value="true" />
+      <created>1730102894030</created>
+      <option name="number" value="LOCAL−00028" />
+      <option name="presentableId" value="LOCAL−00028" />
+      <updated>1730102894030</updated>
+    </task>
+    <task id="LOCAL−00029" summary=".">
+      <option name="closed" value="true" />
+      <created>1730103052440</created>
+      <option name="number" value="LOCAL−00029" />
+      <option name="presentableId" value="LOCAL−00029" />
+      <updated>1730103052440</updated>
+    </task>
+    <task id="LOCAL−00030" summary=".">
+      <option name="closed" value="true" />
+      <created>1730103419777</created>
+      <option name="number" value="LOCAL−00030" />
+      <option name="presentableId" value="LOCAL−00030" />
+      <updated>1730103419777</updated>
+    </task>
+    <task id="LOCAL−00031" summary=".">
+      <option name="closed" value="true" />
+      <created>1730104624234</created>
+      <option name="number" value="LOCAL−00031" />
+      <option name="presentableId" value="LOCAL−00031" />
+      <updated>1730104624234</updated>
+    </task>
+    <task id="LOCAL−00032" summary=".">
+      <option name="closed" value="true" />
+      <created>1730108295213</created>
+      <option name="number" value="LOCAL−00032" />
+      <option name="presentableId" value="LOCAL−00032" />
+      <updated>1730108295213</updated>
+    </task>
+    <task id="LOCAL−00033" summary=".">
+      <option name="closed" value="true" />
+      <created>1730108847046</created>
+      <option name="number" value="LOCAL−00033" />
+      <option name="presentableId" value="LOCAL−00033" />
+      <updated>1730108847046</updated>
+    </task>
+    <task id="LOCAL−00034" summary=".">
+      <option name="closed" value="true" />
+      <created>1730109657634</created>
+      <option name="number" value="LOCAL−00034" />
+      <option name="presentableId" value="LOCAL−00034" />
+      <updated>1730109657634</updated>
+    </task>
+    <task id="LOCAL−00035" summary=".">
+      <option name="closed" value="true" />
+      <created>1730109889094</created>
+      <option name="number" value="LOCAL−00035" />
+      <option name="presentableId" value="LOCAL−00035" />
+      <updated>1730109889094</updated>
+    </task>
+    <task id="LOCAL−00036" summary=".">
+      <option name="closed" value="true" />
+      <created>1730110735600</created>
+      <option name="number" value="LOCAL−00036" />
+      <option name="presentableId" value="LOCAL−00036" />
+      <updated>1730110735600</updated>
+    </task>
+    <task id="LOCAL−00037" summary=".">
+      <option name="closed" value="true" />
+      <created>1730111988130</created>
+      <option name="number" value="LOCAL−00037" />
+      <option name="presentableId" value="LOCAL−00037" />
+      <updated>1730111988130</updated>
+    </task>
+    <task id="LOCAL−00038" summary=".">
+      <option name="closed" value="true" />
+      <created>1730112662594</created>
+      <option name="number" value="LOCAL−00038" />
+      <option name="presentableId" value="LOCAL−00038" />
+      <updated>1730112662594</updated>
+    </task>
+    <task id="LOCAL−00039" summary=".">
+      <option name="closed" value="true" />
+      <created>1730113446372</created>
+      <option name="number" value="LOCAL−00039" />
+      <option name="presentableId" value="LOCAL−00039" />
+      <updated>1730113446372</updated>
+    </task>
+    <task id="LOCAL−00040" summary=".">
+      <option name="closed" value="true" />
+      <created>1730113772479</created>
+      <option name="number" value="LOCAL−00040" />
+      <option name="presentableId" value="LOCAL−00040" />
+      <updated>1730113772479</updated>
+    </task>
+    <task id="LOCAL−00041" summary=".">
+      <option name="closed" value="true" />
+      <created>1730141846649</created>
+      <option name="number" value="LOCAL−00041" />
+      <option name="presentableId" value="LOCAL−00041" />
+      <updated>1730141846649</updated>
+    </task>
+    <task id="LOCAL−00042" summary=".">
+      <option name="closed" value="true" />
+      <created>1730141951474</created>
+      <option name="number" value="LOCAL−00042" />
+      <option name="presentableId" value="LOCAL−00042" />
+      <updated>1730141951474</updated>
+    </task>
+    <task id="LOCAL−00043" summary=".">
+      <option name="closed" value="true" />
+      <created>1730142070409</created>
+      <option name="number" value="LOCAL−00043" />
+      <option name="presentableId" value="LOCAL−00043" />
+      <updated>1730142070409</updated>
+    </task>
+    <task id="LOCAL−00044" summary=".">
+      <option name="closed" value="true" />
+      <created>1730142178814</created>
+      <option name="number" value="LOCAL−00044" />
+      <option name="presentableId" value="LOCAL−00044" />
+      <updated>1730142178814</updated>
+    </task>
+    <task id="LOCAL−00045" summary=".">
+      <option name="closed" value="true" />
+      <created>1730142283746</created>
+      <option name="number" value="LOCAL−00045" />
+      <option name="presentableId" value="LOCAL−00045" />
+      <updated>1730142283746</updated>
+    </task>
+    <task id="LOCAL−00046" summary=".">
+      <option name="closed" value="true" />
+      <created>1730142404224</created>
+      <option name="number" value="LOCAL−00046" />
+      <option name="presentableId" value="LOCAL−00046" />
+      <updated>1730142404224</updated>
+    </task>
+    <task id="LOCAL−00047" summary=".">
+      <option name="closed" value="true" />
+      <created>1730189061811</created>
+      <option name="number" value="LOCAL−00047" />
+      <option name="presentableId" value="LOCAL−00047" />
+      <updated>1730189061811</updated>
+    </task>
+    <task id="LOCAL−00048" summary=".">
+      <option name="closed" value="true" />
+      <created>1730189439597</created>
+      <option name="number" value="LOCAL−00048" />
+      <option name="presentableId" value="LOCAL−00048" />
+      <updated>1730189439597</updated>
+    </task>
+    <task id="LOCAL−00049" summary=".">
+      <option name="closed" value="true" />
+      <created>1730189478227</created>
+      <option name="number" value="LOCAL−00049" />
+      <option name="presentableId" value="LOCAL−00049" />
+      <updated>1730189478227</updated>
+    </task>
+    <task id="LOCAL−00050" summary=".">
+      <option name="closed" value="true" />
+      <created>1730189541922</created>
+      <option name="number" value="LOCAL−00050" />
+      <option name="presentableId" value="LOCAL−00050" />
+      <updated>1730189541922</updated>
+    </task>
+    <task id="LOCAL−00051" summary=".">
+      <option name="closed" value="true" />
+      <created>1730189572624</created>
+      <option name="number" value="LOCAL−00051" />
+      <option name="presentableId" value="LOCAL−00051" />
+      <updated>1730189572624</updated>
+    </task>
+    <task id="LOCAL−00052" summary=".">
+      <option name="closed" value="true" />
+      <created>1730200855571</created>
+      <option name="number" value="LOCAL−00052" />
+      <option name="presentableId" value="LOCAL−00052" />
+      <updated>1730200855572</updated>
+    </task>
+    <task id="LOCAL−00053" summary=".">
+      <option name="closed" value="true" />
+      <created>1730201839124</created>
+      <option name="number" value="LOCAL−00053" />
+      <option name="presentableId" value="LOCAL−00053" />
+      <updated>1730201839124</updated>
+    </task>
+    <task id="LOCAL−00054" summary=".">
+      <option name="closed" value="true" />
+      <created>1730203496925</created>
+      <option name="number" value="LOCAL−00054" />
+      <option name="presentableId" value="LOCAL−00054" />
+      <updated>1730203496925</updated>
+    </task>
+    <task id="LOCAL−00055" summary=".">
+      <option name="closed" value="true" />
+      <created>1730203808316</created>
+      <option name="number" value="LOCAL−00055" />
+      <option name="presentableId" value="LOCAL−00055" />
+      <updated>1730203808316</updated>
+    </task>
+    <task id="LOCAL−00056" summary=".">
+      <option name="closed" value="true" />
+      <created>1730204100122</created>
+      <option name="number" value="LOCAL−00056" />
+      <option name="presentableId" value="LOCAL−00056" />
+      <updated>1730204100122</updated>
+    </task>
+    <task id="LOCAL−00057" summary=".">
+      <option name="closed" value="true" />
+      <created>1730272828027</created>
+      <option name="number" value="LOCAL−00057" />
+      <option name="presentableId" value="LOCAL−00057" />
+      <updated>1730272828027</updated>
+    </task>
+    <task id="LOCAL−00058" summary=".">
+      <option name="closed" value="true" />
+      <created>1730272875318</created>
+      <option name="number" value="LOCAL−00058" />
+      <option name="presentableId" value="LOCAL−00058" />
+      <updated>1730272875318</updated>
+    </task>
+    <task id="LOCAL−00059" summary=".">
+      <option name="closed" value="true" />
+      <created>1730273947964</created>
+      <option name="number" value="LOCAL−00059" />
+      <option name="presentableId" value="LOCAL−00059" />
+      <updated>1730273947964</updated>
+    </task>
+    <task id="LOCAL−00060" summary=".">
+      <option name="closed" value="true" />
+      <created>1730274031411</created>
+      <option name="number" value="LOCAL−00060" />
+      <option name="presentableId" value="LOCAL−00060" />
+      <updated>1730274031411</updated>
+    </task>
+    <task id="LOCAL−00061" summary=".">
+      <option name="closed" value="true" />
+      <created>1730465523134</created>
+      <option name="number" value="LOCAL−00061" />
+      <option name="presentableId" value="LOCAL−00061" />
+      <updated>1730465523134</updated>
+    </task>
+    <task id="LOCAL−00062" summary=".">
+      <option name="closed" value="true" />
+      <created>1730723262193</created>
+      <option name="number" value="LOCAL−00062" />
+      <option name="presentableId" value="LOCAL−00062" />
+      <updated>1730723262194</updated>
+    </task>
+    <task id="LOCAL−00063" summary=".">
+      <option name="closed" value="true" />
+      <created>1730723402634</created>
+      <option name="number" value="LOCAL−00063" />
+      <option name="presentableId" value="LOCAL−00063" />
+      <updated>1730723402634</updated>
+    </task>
+    <task id="LOCAL−00064" summary=".">
+      <option name="closed" value="true" />
+      <created>1730727137343</created>
+      <option name="number" value="LOCAL−00064" />
+      <option name="presentableId" value="LOCAL−00064" />
+      <updated>1730727137343</updated>
+    </task>
+    <task id="LOCAL−00065" summary=".">
+      <option name="closed" value="true" />
+      <created>1730794059109</created>
+      <option name="number" value="LOCAL−00065" />
+      <option name="presentableId" value="LOCAL−00065" />
+      <updated>1730794059110</updated>
+    </task>
+    <task id="LOCAL−00066" summary=".">
+      <option name="closed" value="true" />
+      <created>1731505378398</created>
+      <option name="number" value="LOCAL−00066" />
+      <option name="presentableId" value="LOCAL−00066" />
+      <updated>1731505378398</updated>
+    </task>
+    <task id="LOCAL−00067" summary=".">
+      <option name="closed" value="true" />
+      <created>1731573680312</created>
+      <option name="number" value="LOCAL−00067" />
+      <option name="presentableId" value="LOCAL−00067" />
+      <updated>1731573680312</updated>
+    </task>
+    <task id="LOCAL−00068" summary=".">
+      <option name="closed" value="true" />
+      <created>1731574706469</created>
+      <option name="number" value="LOCAL−00068" />
+      <option name="presentableId" value="LOCAL−00068" />
+      <updated>1731574706469</updated>
+    </task>
+    <task id="LOCAL−00069" summary=".">
+      <option name="closed" value="true" />
+      <created>1731932884828</created>
+      <option name="number" value="LOCAL−00069" />
+      <option name="presentableId" value="LOCAL−00069" />
+      <updated>1731932884828</updated>
+    </task>
+    <task id="LOCAL−00070" summary=".">
+      <option name="closed" value="true" />
+      <created>1731932910543</created>
+      <option name="number" value="LOCAL−00070" />
+      <option name="presentableId" value="LOCAL−00070" />
+      <updated>1731932910543</updated>
+    </task>
+    <task id="LOCAL−00071" summary=".">
+      <option name="closed" value="true" />
+      <created>1731933970636</created>
+      <option name="number" value="LOCAL−00071" />
+      <option name="presentableId" value="LOCAL−00071" />
+      <updated>1731933970636</updated>
+    </task>
+    <task id="LOCAL−00072" summary=".">
+      <option name="closed" value="true" />
+      <created>1731934011693</created>
+      <option name="number" value="LOCAL−00072" />
+      <option name="presentableId" value="LOCAL−00072" />
+      <updated>1731934011693</updated>
+    </task>
+    <task id="LOCAL−00073" summary=".">
+      <option name="closed" value="true" />
+      <created>1732541270302</created>
+      <option name="number" value="LOCAL−00073" />
+      <option name="presentableId" value="LOCAL−00073" />
+      <updated>1732541270303</updated>
+    </task>
+    <option name="localTasksCounter" value="74" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/inf2_2425$hei_verden.coverage" NAME="hei_verden Coverage Results" MODIFIED="1724663184862" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_Grunnlegende_programering" />
+    <SUITE FILE_PATH="coverage/inf2_2425$unknown.coverage" NAME="unknown Coverage Results" MODIFIED="1732535388114" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter/page" />
+    <SUITE FILE_PATH="coverage/inf2_2425$test__1_.coverage" NAME="test (1) Coverage Results" MODIFIED="1731450143217" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_Objektorientert_programering" />
+    <SUITE FILE_PATH="coverage/inf2_2425$oversikt.coverage" NAME="oversikt Coverage Results" MODIFIED="1732181785345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_Databehandling/Oppgave9" />
+    <SUITE FILE_PATH="coverage/inf2_2425$nedtrekk.coverage" NAME="nedtrekk Coverage Results" MODIFIED="1732536910672" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter" />
+    <SUITE FILE_PATH="coverage/inf2_2425$titanic2.coverage" NAME="titanic2 Coverage Results" MODIFIED="1733519686906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter" />
+    <SUITE FILE_PATH="coverage/inf2_2425$fargevelger.coverage" NAME="fargevelger Coverage Results" MODIFIED="1726643031061" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_Grunnlegende_programering" />
+    <SUITE FILE_PATH="coverage/inf2_2425$eksempel.coverage" NAME="eksempel Coverage Results" MODIFIED="1732183637422" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/3_Databehandling/Oppgave9" />
+    <SUITE FILE_PATH="coverage/inf2_2425$main.coverage" NAME="main Coverage Results" MODIFIED="1724225608572" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/inf2_2425$mvgsBank.coverage" NAME="mvgsBank Coverage Results" MODIFIED="1732091631127" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_Objektorientert_programering" />
+    <SUITE FILE_PATH="coverage/inf2_2425$livets_spill.coverage" NAME="livets_spill Coverage Results" MODIFIED="1732183646772" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_Objektorientert_programering" />
+    <SUITE FILE_PATH="coverage/inf2_2425$ordbok_sort.coverage" NAME="ordbok_sort Coverage Results" MODIFIED="1729669282220" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1_Grunnlegende_programering" />
+    <SUITE FILE_PATH="coverage/inf2_2425$intro.coverage" NAME="intro Coverage Results" MODIFIED="1732276688769" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter" />
+    <SUITE FILE_PATH="coverage/inf2_2425$tester.coverage" NAME="tester Coverage Results" MODIFIED="1733523449066" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/2_Objektorientert_programering" />
+    <SUITE FILE_PATH="coverage/inf2_2425$test.coverage" NAME="test Coverage Results" MODIFIED="1732536343462" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter" />
+    <SUITE FILE_PATH="coverage/inf2_2425$titanic.coverage" NAME="titanic Coverage Results" MODIFIED="1732538463428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Tkinter" />
+  </component>
+</project>
