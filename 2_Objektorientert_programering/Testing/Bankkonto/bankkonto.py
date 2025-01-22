@@ -13,6 +13,7 @@ class Bankkonto:
     def settInn(self, belop:float):
         self.saldo += belop
 
+
     def taUt(self, belop:float):
         if belop > self.saldo+self.kredittgrense:
             raise ValueError("Uttak overskrider saldo + kredittgrense")
