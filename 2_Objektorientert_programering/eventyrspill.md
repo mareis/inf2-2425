@@ -96,3 +96,4 @@ Gjennom denne oppgaven har du:
 - Skapt interaksjoner mellom objekter.
 
 ---
+

@@ -35,10 +35,10 @@ $$
 $$
 
 **Fremgangsmåte:**  
-Finn antiderivert: \( F(x) = rac{3x^2}{2} \).  
+Finn antiderivert: $$F(x) = \frac{3x^2}{2}$$.  
 Evaluér ved grensene:  
 $$
-F(2) - F(0) = rac{3 \cdot 2^2}{2} - rac{3 \cdot 0^2}{2} = 6
+F(2) - F(0) = \frac{3 \cdot 2^2}{2} - \frac{3 \cdot 0^2}{2} = 6
 $$
 
 ### Oppgave 1
@@ -82,7 +82,7 @@ $$
 Finn det ubestemte integralet:
 
 $$
-\int rac{1}{x} \, dx = \ln|x| + C
+\int \frac{1}{x} \, dx = \ln|x| + C
 $$
 
 ### Oppgave 3
@@ -90,7 +90,8 @@ $$
 Finn det ubestemte integralet:
 
 $$
-\int \left(4x^3 - rac{2}{x}ight) \, dx
+\int \left(4x^3 - \frac{2}{x}
+\right) \, dx
 $$
 
 ---
@@ -147,7 +148,8 @@ Gitt funksjonene \( f(x) = x^2 \) og \( g(x) = 4 \):
 Beregn integralet:
 
 $$
-\int_{0}^{3} \left(2x e^{x} + rac{3}{x}ight) \, dx
+\int_{0}^{3} \left(2x e^{x} + \frac{3}{x}
+\right) \, dx
 $$
 
 ### Oppgave 7
@@ -155,7 +157,8 @@ $$
 Finn det ubestemte integralet:
 
 $$
-\int \left(5e^{2x} - rac{4}{x}ight) \, dx
+\int \left(5e^{2x} - \frac{4}{x}
+\right) \, dx
 $$
 
 ### Oppgave 8
@@ -180,7 +183,7 @@ $$
 Del opp følgende funksjon og integrer:
 
 $$
-\int rac{3x + 2}{x^2 - x - 2} \, dx
+\int \frac{3x + 2}{x^2 - x - 2} \, dx
 $$
 
 ---

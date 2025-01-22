@@ -126,9 +126,9 @@ Forklar hva koden beregner. Hva tilsvarer dette integralet uttrykt matematisk?
 
 ## 5. Areal mellom graf og x-aksen
 
-For å finne arealet mellom grafen til en funksjon \( f(x) \) og x-aksen i intervallet \([a, b]\), bruker vi det bestemte integralet. Hvis funksjonen er positiv i intervallet, representerer integralet arealet direkte. Hvis funksjonen er negativ, vil integralet være negativt, og vi må ta absoluttverdien for å få arealet.
+For å finne arealet mellom grafen til en funksjon \( f(x) \) og x-aksen i intervallet \([a, b]\), bruker vi det bestemte integralet. Hvis funksjonen er positiv i intervallet, representerer integralet arealet direkte. Hvis funksjonen er negativ, må vi ta absoluttverdien.
 
-### Eksempel:
+### Oppgave 5
 
 Beregn arealet under kurven \( f(x) = x^2 - 4x + 3 \) fra \( x = 1 \) til \( x = 3 \).
 
@@ -142,18 +142,15 @@ $$
 A = \int_{a}^{b} |f(x) - g(x)| \, dx
 $$
 
-### Oppgave 5
+### Oppgave 6
 
-Gitt funksjonene \( f(x) = x^2 \) og \( g(x) = 4 \):
-
-**a) Finn skjæringspunktene mellom grafene.**  
-**b) Beregn arealet mellom grafene fra \( x = 0 \) til \( x = 2 \).**
+Gitt funksjonene \( f(x) = x^2 \) og \( g(x) = 4 \), beregn arealet mellom grafene fra \( x = 0 \) til \( x = 2 \).
 
 ---
 
 ## 7. Blandede oppgaver
 
-### Oppgave 6
+### Oppgave 7
 
 Beregn integralet:
 
@@ -161,7 +158,7 @@ $$
 \int_{0}^{3} \left(2x e^{x} + rac{3}{x}ight) \, dx
 $$
 
-### Oppgave 7
+### Oppgave 8
 
 Finn det ubestemte integralet:
 
@@ -169,12 +166,35 @@ $$
 \int \left(5e^{2x} - rac{4}{x}ight) \, dx
 $$
 
-### Oppgave 8
+### Oppgave 9
 
-Gitt funksjonen \( f(x) = 2x^3 - 3x + 1 \):
+Gitt funksjonen \( f(x) = 2x^3 - 3x + 1 \), beregn arealet mellom grafen og x-aksen over intervallet fra det minste til det største nullpunktet.
 
-**a) Finn nullpunktene til \( f(x) \).**  
-**b) Beregn arealet mellom grafen til \( f(x) \) og x-aksen over intervallet fra det minste til det største nullpunktet.**
+---
+
+### Oppgave 10
+
+Bruk numerisk integrasjon til å tilnærme integralet:
+
+$$
+\int_{1}^{4} e^x \, dx
+$$
+
+### Oppgave 11
+
+Finn integralet:
+
+$$
+\int_{1}^{e} rac{1}{x} \, dx
+$$
+
+### Oppgave 12
+
+Regn ut:
+
+$$
+\int e^{3x} \, dx
+$$
 
 ---
 
@@ -194,9 +214,16 @@ $$
 \int rac{3x + 2}{x^2 - x - 2} \, dx
 $$
 
+### Oppgave 21
+
+Integrer ved bruk av substitusjon:
+
+$$
+\int rac{2x}{x^2 + 1} \, dx
+$$
+
 ---
 
 ## 9. Avslutning
 
 Dette arbeidsarket har tatt for seg sentrale konsepter innen integrasjon som er relevante for S2. Lykke til med forberedelsene til prøven!
-

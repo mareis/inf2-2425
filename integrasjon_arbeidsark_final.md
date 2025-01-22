@@ -35,17 +35,8 @@ $$
 \int_{0}^{2} (3x) \, dx
 $$
 
-**Fremgangsmåte:**  
-Finn antiderivert: \( F(x) = rac{3x^2}{2} \).  
-Evaluér ved grensene:  
-$$
-F(2) - F(0) = rac{3 \cdot 2^2}{2} - rac{3 \cdot 0^2}{2} = 6
-$$
-
 ### Oppgave 1
-
 Regn ut integralet:
-
 $$
 \int_{1}^{4} (2x + 1) \, dx
 $$
@@ -55,15 +46,12 @@ $$
 ## 2. Analysens fundamentalteorem
 
 Hvis \( F(x) \) er en antiderivert av \( f(x) \), så er:
-
 $$
 \int_{a}^{b} f(x) \, dx = F(b) - F(a)
 $$
 
 ### Oppgave 2
-
 Regn ut integralet:
-
 $$
 \int_{2}^{5} e^x \, dx
 $$
@@ -73,23 +61,18 @@ $$
 ## 3. Bestemte og ubestemte integraler
 
 ### Ubestemt integral:
-
 $$
 \int f(x) \, dx = F(x) + C
 $$
 
 ### Eksempel på ubestemt integral:
-
 Finn det ubestemte integralet:
-
 $$
 \int rac{1}{x} \, dx = \ln|x| + C
 $$
 
 ### Oppgave 3
-
 Finn det ubestemte integralet:
-
 $$
 \int \left(4x^3 - rac{2}{x}ight) \, dx
 $$
@@ -119,84 +102,78 @@ print(f"Tilnærmet verdi av integralet: {I}")
 ```
 
 ### Oppgave 4
-
 Forklar hva koden beregner. Hva tilsvarer dette integralet uttrykt matematisk?
 
 ---
 
 ## 5. Areal mellom graf og x-aksen
 
-For å finne arealet mellom grafen til en funksjon \( f(x) \) og x-aksen i intervallet \([a, b]\), bruker vi det bestemte integralet. Hvis funksjonen er positiv i intervallet, representerer integralet arealet direkte. Hvis funksjonen er negativ, vil integralet være negativt, og vi må ta absoluttverdien for å få arealet.
+For å finne arealet mellom grafen til \( f(x) \) og x-aksen, bruker vi det bestemte integralet. Hvis \( f(x) \) er negativ, tar vi absoluttverdien for å finne arealet.
 
-### Eksempel:
-
+### Oppgave 5
 Beregn arealet under kurven \( f(x) = x^2 - 4x + 3 \) fra \( x = 1 \) til \( x = 3 \).
 
 ---
 
 ## 6. Areal mellom to grafer
 
-Arealet mellom to funksjoner \( f(x) \) og \( g(x) \) over intervallet \([a, b]\):
-
+Arealet mellom to funksjoner \( f(x) \) og \( g(x) \):
 $$
 A = \int_{a}^{b} |f(x) - g(x)| \, dx
 $$
 
-### Oppgave 5
-
-Gitt funksjonene \( f(x) = x^2 \) og \( g(x) = 4 \):
-
-**a) Finn skjæringspunktene mellom grafene.**  
-**b) Beregn arealet mellom grafene fra \( x = 0 \) til \( x = 2 \).**
+### Oppgave 6
+Gitt \( f(x) = x^2 \) og \( g(x) = 4 \), beregn arealet fra \( x = 0 \) til \( x = 2 \).
 
 ---
 
 ## 7. Blandede oppgaver
 
-### Oppgave 6
-
+### Oppgave 7
 Beregn integralet:
-
 $$
 \int_{0}^{3} \left(2x e^{x} + rac{3}{x}ight) \, dx
 $$
 
-### Oppgave 7
-
+### Oppgave 8
 Finn det ubestemte integralet:
-
 $$
 \int \left(5e^{2x} - rac{4}{x}ight) \, dx
 $$
 
-### Oppgave 8
+### Oppgave 9
+Beregn arealet mellom \( f(x) = 2x^3 - 3x + 1 \) og x-aksen.
 
-Gitt funksjonen \( f(x) = 2x^3 - 3x + 1 \):
+---
 
-**a) Finn nullpunktene til \( f(x) \).**  
-**b) Beregn arealet mellom grafen til \( f(x) \) og x-aksen over intervallet fra det minste til det største nullpunktet.**
+### Flere blandede oppgaver:
+10. Numerisk integrasjon for \( \int_{1}^{4} e^x \, dx \).
+11. Finn \( \int_{1}^{e} rac{1}{x} \, dx \).
+12. Ubestemt integral \( \int e^{3x} \, dx \).
+13. Arealberegning med \( f(x) = \ln x \) og \( g(x) = 2 \).
 
 ---
 
 ## 8. Introduksjon til avanserte integrasjonsmetoder
 
 ### Delvis integrasjon:
-
 $$
 \int u \, dv = uv - \int v \, du
 $$
 
 ### Delbrøkoppspalting:
-
-Del opp følgende funksjon og integrer:
-
 $$
 \int rac{3x + 2}{x^2 - x - 2} \, dx
+$$
+
+### Oppgave 21
+Bruk variabelskifte:
+$$
+\int rac{2x}{x^2 + 1} \, dx
 $$
 
 ---
 
 ## 9. Avslutning
-
-Dette arbeidsarket har tatt for seg sentrale konsepter innen integrasjon som er relevante for S2. Lykke til med forberedelsene til prøven!
+Dette arbeidsarket dekker sentrale konsepter i S2. Lykke til med forberedelsene til prøven!
 
